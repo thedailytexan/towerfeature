@@ -17,12 +17,19 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color:       #a0a0a0;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$theme_orange: #cc5527;
+$text_color: #505050;
+
+
+$xs: 320px;
+$sm: 425px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1444px;
 
 
 
@@ -43,7 +50,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "homepage",
+        "article",
+        "layout"
 ;

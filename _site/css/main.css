@@ -1,0 +1,210 @@
+.byline-illo {
+  color: #a0a0a0;
+  font-size: 1rem;
+  font-family: Merriweather;
+  margin-left: 1em;
+  margin-top: 1em; }
+
+.headline-main {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 6em;
+  font-weight: lighter;
+  position: relative;
+  top: 55vh;
+  left: 0.5em; }
+
+.headline-sub {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 1.5em;
+  font-weight: lighter;
+  position: relative;
+  top: 55vh;
+  left: 2em;
+  font-style: italic; }
+
+.headline-byline {
+  color: #fff;
+  position: relative;
+  top: 55vh;
+  left: 3em;
+  text-transform: uppercase; }
+
+.headline-date {
+  color: #fff;
+  position: relative;
+  top: 55vh;
+  left: 3em;
+  text-transform: uppercase; }
+
+.container.homepage {
+  background: #cc5527;
+  height: 100vh;
+  display: flex; }
+
+div.container.article {
+  display: flex;
+  flex-direction: row; }
+  div.container.article p {
+    font-family: Merriweather;
+    font-size: 1.75rem;
+    line-height: 1.6; }
+
+div.column.article {
+  padding-top: 5vh;
+  padding-left: 10vw;
+  padding-bottom: 5vh; }
+
+div.column.interactive {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-right: 10vw; }
+  div.column.interactive p.small {
+    color: #a0a0a0;
+    font-size: 1.25rem;
+    font-family: Merriweather;
+    margin-top: .5em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
+  font-weight: normal; }
+
+p, a, li, ul, span, pre, code, i {
+  font-family: Roboto, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+vr {
+  border-left: 1px solid white;
+  margin-left: 1em;
+  margin-right: 1em; }
+
+.navbar-top {
+  align-content: center;
+  background: #cc5527;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 1em; }
+  .navbar-top a:not(#homepage-link) {
+    border-radius: 5px;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    height: 2em;
+    line-height: 2;
+    padding: 0 1em;
+    font-weight: 400; }
+    .navbar-top a:not(#homepage-link):hover, .navbar-top a:not(#homepage-link):active {
+      background: #b74c23; }
+  .navbar-top #center-contain {
+    line-height: 2.5; }
+
+#share-menu-trigger {
+  border-radius: 5px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  float: right;
+  height: 2em;
+  line-height: 2;
+  padding: .5rem 1em !important; }
+  #share-menu-trigger:hover, #share-menu-trigger:active {
+    background: #b74c23; }
+
+.navbar-brand {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 1; }
+
+.center-contain {
+  display: flex;
+  justify-content: center; }
+
+span.navbar-brand.feature {
+  font-family: Roboto, sans-serif; }
+
+.fa.fa-share:after {
+  content: "Share";
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  margin-left: .5em;
+  font-weight: bolder; }
+
+.fa.fa-close:after {
+  content: "Close";
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-left: .5em; }
+
+.contents-menu {
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 4em;
+  left: 1em;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0; }
+  .contents-menu a > p {
+    color: #505050;
+    font-size: 1.25em;
+    margin-bottom: 2em; }
+  .contents-menu a:hover {
+    color: #101010; }
+
+.share-menu {
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 4em;
+  right: 1em;
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0; }
+  .share-menu a > p {
+    color: #505050;
+    font-size: 1.25em;
+    margin-bottom: 2em; }
+  .share-menu a:hover {
+    color: #101010; }
+
+.menu-header {
+  border: none; }
+
+footer {
+  border-top: 1px solid lightgray;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 2em 4em; }
+  footer p, footer a, footer ul, footer ol, footer li, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+    color: #a0a0a0; }
+  footer a {
+    color: #6d6d6d; }
+  footer a:hover {
+    color: #606060; }
+  footer ul {
+    list-style: none;
+    margin-left: 0; }
+  footer h3 {
+    font-size: 1.75em; }
+  footer div {
+    flex: 1; }
+
+h3.list-header {
+  margin: 0; }
+
+ul.footer-list li {
+  font-family: Merriweather, serif; }
+
+div.footer-disclaimer {
+  text-align: center; }
+
+div.footer-contact {
+  text-align: right; }
