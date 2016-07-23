@@ -1,3 +1,6 @@
+html, body {
+  overflow-x: hidden;
+}
 // typog
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +21,12 @@ vr {
   margin-right: 1em;
 }
 
+hr {
+  margin: .5em 0 .5em 0;
+  border-bottom: 1px solid $grey-color-light;
+  color: lighten($grey-color, 20%);
+}
+
 // navbar
 
 .navbar-top {
@@ -28,34 +37,65 @@ vr {
   height: 10vh;
   padding: 1em;
 
-  a:not(#homepage-link) {
+  #share-menu-trigger, #content-menu-trigger {
     border-radius: 5px;
     color: #fff;
     font-family: Roboto, sans-serif;
     height: 2em;
     line-height: 2;
-    padding: 0 1em;
+    padding: .5em 1em;
     &:hover, &:active {
       background: darken($theme_orange, 5%);
     }
     font-weight: 400;
   }
-
+  
+  i {
+    color: #fff;
+  }
   #center-contain {
     line-height: 2.5;
   }
 }
 
-#share-menu-trigger {
-  border-radius: 5px;
-  color: #fff;
-  font-family: Roboto, sans-serif;
-  float: right;
-  height: 2em;
-  line-height: 2;
-  padding: .5rem 1em !important;
-  &:hover, &:active {
-    background: darken($theme_orange, 5%);
+.navbar-top.fixed {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: #fff;
+  border-bottom: 1px solid $grey-color-dark;
+  height: 7vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+  #center-contain {
+    span {
+      color: $grey-color-dark;
+    }
+    
+    vr {
+      border-left-color: $grey-color-dark;
+    }
+  }
+
+  #share-menu-trigger, #content-menu-trigger, #share-menu-trigger-fixed, #content-menu-trigger-fixed {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: $grey-color-dark;
+    font-family: Roboto, sans-serif;
+    height: 2em;
+    line-height: 2;
+    padding: .5em 1em;
+    &:hover, &:active {
+      background: darken(#fff, 5%);
+    }
+    font-weight: 400;
+  }
+
+  i {
+    color: $grey-color-dark;
   }
 }
 
@@ -76,44 +116,104 @@ span.navbar-brand.feature {
   font-family: Roboto, sans-serif;
 }
 
-.fa.fa-share:after {
-  content: "Share";
-  font-family: Roboto, sans-serif;
-  font-size: 1.5rem;
-  margin-left: .5em;
-  font-weight: bolder;
+a {
+  .fa.fa-share:after {
+    content: "Share";
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    margin-left: .5em;
+    font-weight: bolder;
+  }
+
+  .fa.fa-close:after {
+    content: "Close";
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: .5em;
+  }
 }
 
-.fa.fa-close:after {
-  content: "Close";
-  font-family: Roboto, sans-serif;
-  font-size: 1.5rem;
-  font-weight: bolder;
-  margin-left: .5em;
-}
+// content menu
 
 .contents-menu {
   display: none;
-  position: absolute;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  position: fixed;
   text-align: center;
-  top: 4em;
-  left: 1em;
-  padding-top: 1.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  padding-bottom: 0;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding: 0;
+  z-index: 100;
+  overflow: auto;
+
+  div {
+    padding: 2em 2em 1em 2em;
+  }
 
   a > p {
     color: $text_color;
     font-size: 1.25em;
     margin-bottom: 2em;
   }
+  
+  a {
+    color: $link-color;
+  }
 
   a:hover {
-    color: darken($text_color, 25%);
+    color: darken($link_color, 25%);
+  }
+
+  .contents-menu-header {
+    border-bottom: 1px solid lightgray;
+    span {
+      font-family: Merriweather, serif;
+      font-size: 1.5em;
+    }
+    i {
+      color: $grey-color-dark;
+      margin-left: 2em;
+      &:hover, &:active {
+        color: $grey-color;
+      }
+    }
   }
 
 }
+
+.contents-menu-item {
+  border-bottom: 1px solid lightgray;
+  p {
+    text-align: left;
+    font-size: 1.25em;
+    font-family: Merriweather, serif;
+    font-style: italic;
+  }
+  &:hover {
+    background: darken(#fff, 2.5%);
+  }
+}
+
+.contents-menu-scrim  {
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+// sharing menu
+
 .share-menu {
   display: none;
   position: absolute;
@@ -124,6 +224,7 @@ span.navbar-brand.feature {
   padding-left: 1.5em;
   padding-right: 1.5em;
   padding-bottom: 0;
+  z-index: 25;
 
   a > p {
     color: $text_color;
@@ -140,7 +241,23 @@ span.navbar-brand.feature {
   border: none;
 }
 
+
 // footer
+
+#to-top {
+  display: none;
+  background: #fff;
+  border: 1px solid $grey-color;
+  color: $grey-color;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  font-family: Roboto, sans-serif;
+  
+  &:hover {
+    background: darken(#fff, 5%);
+  }
+}
 
 footer {
   border-top: 1px solid lightgray;
@@ -150,11 +267,11 @@ footer {
   padding: 2em 4em;
   
   p, a, ul, ol, li, h1, h2, h3, h4, h5, h6 {
-    color: $grey-color;
+    color: darken($grey-color, 10%);
   }
 
   a {
-    color: darken($grey-color, 20%);
+    color: darken($grey-color, 30%);
   }
   
   a:hover {
@@ -167,6 +284,7 @@ footer {
   }
 
   h3 {
+    color: darken($grey-color, 20%);
     font-size: 1.75em;
   }
 
@@ -186,9 +304,29 @@ ul.footer-list {
 }
 
 div.footer-disclaimer {
-  text-align: center;
+  text-align: right;
 }
 
 div.footer-contact {
-  text-align: right;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  ul.footer-contact-list {
+    button, button > p {
+      background: #fff;
+      border: 1px solid darken($grey-color, 30%);
+      color: darken($grey-color, 30%);
+    }
+
+    button:hover, button > p:hover {
+      border-color: $grey-color-dark;
+      background: darken(#fff, 5%);
+      color: $grey-color-dark;
+    }
+
+    a > button > i {
+      margin-right: 1em;
+    }
+  }
 }

@@ -14,6 +14,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
+$link-color: #5d9cbf;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -45,6 +46,15 @@ $xl: 1444px;
         @content;
     }
 }
+
+@mixin BoxShadow() {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+@mixin BoxShadowHover() {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
 
 
 
