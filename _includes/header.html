@@ -1,3 +1,4 @@
+<!-- standard nav -->
 <header class="navbar-top">
   <a href="#" id="contents-menu-trigger">
       <i class="fa fa-bars fa-2x"></i>
@@ -10,8 +11,8 @@
   <a href="#" id="share-menu-trigger">
     <i id="share-btn" class="fa fa-share"></i>
   </a>
-  {% include contents.html %}
 </header>
+<!-- fixed nav, shows after header -->
 <header class="navbar-top fixed">
     <a href="#" id="contents-menu-trigger-fixed">
         <i class="fa fa-bars fa-2x"></i>
@@ -22,10 +23,35 @@
         <span class="navbar-brand feature">FEATURES</span>
     </div>
     <a href="#" id="share-menu-trigger-fixed">
-        <i id="share-btn" class="fa fa-share"></i>
+        <i id="share-btn-fixed" class="fa fa-share"></i>
     </a>
-    {% include contents.html %}
 </header>
+<!-- small-screen nav, 320px-425px -->
+<header class="navbar-top small">
+    <div id="center-contain-small">
+        <a href="#" id="contents-menu-trigger-small">
+            <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <span class="navbar-brand"> The Daily Texan</span>
+        <a href="#" id="share-menu-trigger-small">
+            <i id="share-btn-small" class="fa fa-share fa-lg"></i>
+        </a>
+    </div>
+</header>
+<!-- fixed small-screen nav, 320px-425px -->
+<header class="navbar-top fixed small">
+    <div id="center-contain-small-fixed">
+        <a href="#" id="contents-menu-trigger-small-fixed">
+            <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <span class="navbar-brand"> The Daily Texan</span>
+        <a href="#" id="share-menu-trigger-small-fixed">
+            <i id="share-btn-small-fixed" class="fa fa-share fa-lg"></i>
+        </a>
+    </div>
+</header>
+{% include contents.html %}
+<!-- sharing menu -->
 <ul class="menu share-menu">
   <a href="#">
     <p>
@@ -37,7 +63,7 @@
       <i data-tooltip="Share on Twitter" id="twitter-share" class="fa fa-twitter menu-header-text"></i>
     </p>
   </a>
-  <a href="#">
+  <a href="#" class="copy-link-btn" data-clipboard-text="http://www.dailytexanonline.com/features/tower/">
     <p>
       <i data-tooltip="Copy link" id="link-share" class="fa fa-copy menu-header-text"></i>
     </p>

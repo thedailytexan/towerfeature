@@ -249,4 +249,91 @@ div.col-12.article.victim-grid {
 }
 
 
+// RESPONSIVE
+
+@include media-query($xl) {
+
+}
+
+@include media-query($lg) {
+
+}
+
+@include media-query($md) {
+
+}
+
+@include media-query($sm) {
+
+}
+
+@include media-query($xs) {
+  .container.homepage {
+    height: 100vh;
+  }
+  .col-12.column.introduction {
+    padding: 2em 10vw 2em 10vw;
+  }
+  h1.section-head {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  div.column.article {
+    padding-left: 0;
+    padding: 3rem;
+  }
+  div.col-12.article.victim-grid {
+    padding: 3rem 0 0 0;
+    h1.section-head {
+      padding-left: 3rem;
+    }
+  }
+  .victim-row {
+    flex-direction: column;
+  }
+  .story-card-container {
+    flex-direction: column;
+  }
+  .story-card {
+    margin: 0 0 1em 0;
+  }
+  div.two-panel {
+    flex-direction: column;
+    div.col-6 {
+      width: 100%;
+    }
+  }
+  .headline-main {
+    text-align: center;
+    font-size: 5em;
+    left: 0;
+    top: 45vh;
+  }
+  .headline-sub {
+    text-align: left;
+    top: 44vh;
+    font-size: 1.25em;
+    left: 0;
+    padding: 0 1em;
+  }
+  .headline-byline {
+    font-size: 1.25rem;
+    text-align: left;
+    top: 44vh;
+    padding: 0 1.5em;
+    left: 0;
+  }
+  .headline-date {
+    padding: 0 1.5em;
+    font-size: 1.25rem;
+    top: 45vh;
+    left: 0;
+  }
+}
+@include media-query($xss) {
+  .headline-main {
+    font-size: 4em;
+  }
+}
+
 

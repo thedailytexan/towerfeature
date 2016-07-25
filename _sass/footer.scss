@@ -1,0 +1,149 @@
+// footer
+
+#to-top {
+  display: none;
+  background: #fff;
+  border: 1px solid $grey-color-dark;;
+  color: $grey-color-dark;;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  font-family: Roboto, sans-serif;
+
+  &:hover {
+    background: darken(#fff, 5%);
+}
+}
+
+.bottom-alert {
+  display: none;
+  background: darken($grey-color-dark, 10%);
+  border-radius: 5px;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  margin: auto;
+  width: 13em;
+  padding: 1em;
+
+  p.bottom-alert-text {
+    color: #fff;
+    margin-bottom: 0;
+}
+}
+footer {
+  border-top: 1px solid lightgray;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 2em 4em;
+
+  p, a, ul, ol, li, h1, h2, h3, h4, h5, h6 {
+    color: darken($grey-color, 10%);
+}
+
+  a {
+    color: darken($grey-color, 30%);
+}
+
+  a:hover {
+    color: $grey-color-dark;
+}
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+  h3 {
+    color: darken($grey-color, 20%);
+    font-size: 1.75em;
+}
+
+  div {
+    flex: 1;
+}
+}
+
+h3.list-header {
+  margin: 0;
+}
+
+ul.footer-list {
+  li {
+    font-family: Merriweather, serif;
+}
+}
+
+div.footer-disclaimer {
+  text-align: right;
+}
+
+div.footer-contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  ul.footer-contact-list {
+    button, button > p {
+      background: #fff;
+      border: 1px solid darken($grey-color, 30%);
+      color: darken($grey-color, 30%);
+  }
+
+    button:hover, button > p:hover {
+      border-color: $grey-color-dark;
+      background: darken(#fff, 5%);
+      color: $grey-color-dark;
+  }
+
+    a > button > i {
+      margin-right: 1em;
+  }
+}
+}
+
+
+// RESPONSIVE
+
+
+@include media-query($xl) {
+
+}
+
+@include media-query($lg) {
+
+}
+
+@include media-query($md) {
+
+}
+
+@include media-query($sm) {
+
+}
+
+@include media-query($xs) {
+  footer {
+    display: block;
+    padding: 2em;
+  }
+  .footer-byline {
+    text-align: center;
+  }
+  ul.footer-contact-list {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin: .5em;
+    }
+  }
+  div.footer-disclaimer {
+    text-align: center;
+  }
+  #to-top {
+    font-size: 1.25rem;
+    padding: .5rem;
+  }
+}

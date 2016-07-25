@@ -6,18 +6,20 @@
     <title>50 Years</title>
     <meta name="description" content="A Daily Texan feature story.">
 
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
 
     <link rel="stylesheet" href="/features/tower/css/spectre.css">
     <link rel="stylesheet" href="/features/tower/css/font-awesome.min.css">
     <link rel="stylesheet" href="/features/tower/css/animate.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/features/tower/css/main.css">
     <link rel="canonical" href="http://dailytexanonline.com/features/tower/">
 
     <script src="/features/tower/js/jquery.min.js"></script>
+    <script src="/features/tower/js/clipboard.min.js"></script>
     <script src="/features/tower/js/app.js"></script>
 </head>
 
+<!-- standard nav -->
 <header class="navbar-top">
   <a href="#" id="contents-menu-trigger">
       <i class="fa fa-bars fa-2x"></i>
@@ -30,51 +32,8 @@
   <a href="#" id="share-menu-trigger">
     <i id="share-btn" class="fa fa-share"></i>
   </a>
-  <ul class="menu contents-menu" onmouseover="document.body.style.overflow='hidden';"
-    onmouseout="document.body.style.overflow='auto';">
-    <div class="contents-menu-header">
-        <span>Table of Contents</span>
-        <i class="fa fa-times-circle fa-2x" id="contents-menu-close"></i>
-    </div>
-    <a href="#sniper">
-        <div class="contents-menu-item">
-            <p>The Sniper</p>
-        </div>
-    </a>
-    <a href="#victims">
-        <div class="contents-menu-item">
-            <p>The Victims</p>
-        </div>
-    </a>
-    <a href="#heroes">
-        <div class="contents-menu-item">
-            <p>The Heroes</p>
-        </div>
-    </a>
-    <a href="#survivors">
-        <div class="contents-menu-item">
-            <p>The Survivors</p>
-        </div>
-    </a>
-    <a href="#inside-tower">
-        <div class="contents-menu-item">
-            <p>Inside the Tower</p>
-        </div>
-    </a>
-    <a href="#memorial">
-        <div class="contents-menu-item">
-            <p>The Memorial</p>
-        </div>
-    </a>
-    <a href="#texan">
-        <div class="contents-menu-item">
-            <p>The Texan</p>
-        </div>
-    </a>
-</ul>
-<div class="contents-menu-scrim" onmouseover="document.body.style.overflow='hidden';"
-     onmouseout="document.body.style.overflow='auto';"></div>
 </header>
+<!-- fixed nav, shows after header -->
 <header class="navbar-top fixed">
     <a href="#" id="contents-menu-trigger-fixed">
         <i class="fa fa-bars fa-2x"></i>
@@ -85,9 +44,34 @@
         <span class="navbar-brand feature">FEATURES</span>
     </div>
     <a href="#" id="share-menu-trigger-fixed">
-        <i id="share-btn" class="fa fa-share"></i>
+        <i id="share-btn-fixed" class="fa fa-share"></i>
     </a>
-    <ul class="menu contents-menu" onmouseover="document.body.style.overflow='hidden';"
+</header>
+<!-- small-screen nav, 320px-425px -->
+<header class="navbar-top small">
+    <div id="center-contain-small">
+        <a href="#" id="contents-menu-trigger-small">
+            <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <span class="navbar-brand"> The Daily Texan</span>
+        <a href="#" id="share-menu-trigger-small">
+            <i id="share-btn-small" class="fa fa-share fa-lg"></i>
+        </a>
+    </div>
+</header>
+<!-- fixed small-screen nav, 320px-425px -->
+<header class="navbar-top fixed small">
+    <div id="center-contain-small-fixed">
+        <a href="#" id="contents-menu-trigger-small-fixed">
+            <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <span class="navbar-brand"> The Daily Texan</span>
+        <a href="#" id="share-menu-trigger-small-fixed">
+            <i id="share-btn-small-fixed" class="fa fa-share fa-lg"></i>
+        </a>
+    </div>
+</header>
+<ul class="menu contents-menu" onmouseover="document.body.style.overflow='hidden';"
     onmouseout="document.body.style.overflow='auto';">
     <div class="contents-menu-header">
         <span>Table of Contents</span>
@@ -131,7 +115,7 @@
 </ul>
 <div class="contents-menu-scrim" onmouseover="document.body.style.overflow='hidden';"
      onmouseout="document.body.style.overflow='auto';"></div>
-</header>
+<!-- sharing menu -->
 <ul class="menu share-menu">
   <a href="#">
     <p>
@@ -143,7 +127,7 @@
       <i data-tooltip="Share on Twitter" id="twitter-share" class="fa fa-twitter menu-header-text"></i>
     </p>
   </a>
-  <a href="#">
+  <a href="#" class="copy-link-btn" data-clipboard-text="http://www.dailytexanonline.com/features/tower/">
     <p>
       <i data-tooltip="Copy link" id="link-share" class="fa fa-copy menu-header-text"></i>
     </p>
@@ -205,7 +189,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%209.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%209.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -213,7 +197,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%208.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%208.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -221,7 +205,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%207.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%207.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -229,7 +213,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%206.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%206.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -237,50 +221,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%205.html'">
-                <h3 class="victim-name">Victim Name</h3>
-            </div>
-            
-        </div>
-        <div class="victim-row">
-            
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%204.html'">
-                <h3 class="victim-name">Victim Name</h3>
-            </div>
-            
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%203.html'">
-                <h3 class="victim-name">Victim Name</h3>
-            </div>
-            
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%202.html'">
-                <h3 class="victim-name">Victim Name</h3>
-            </div>
-            
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%2014.html'">
-                <h3 class="victim-name">Victim Name</h3>
-            </div>
-            
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%2013.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%205.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -291,7 +232,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%2012.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%204.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -299,7 +240,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%2011.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%203.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -307,7 +248,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy%2010.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%202.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -315,7 +256,7 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll%20copy.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2014.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -323,7 +264,50 @@
                  style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
                  onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
                  onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/20/welcome-to-jekyll.html'">
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2013.html'">
+                <h3 class="victim-name">Victim Name</h3>
+            </div>
+            
+        </div>
+        <div class="victim-row">
+            
+            <div class="victim-card"
+                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
+                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
+                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2012.html'">
+                <h3 class="victim-name">Victim Name</h3>
+            </div>
+            
+            <div class="victim-card"
+                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
+                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
+                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2011.html'">
+                <h3 class="victim-name">Victim Name</h3>
+            </div>
+            
+            <div class="victim-card"
+                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
+                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
+                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2010.html'">
+                <h3 class="victim-name">Victim Name</h3>
+            </div>
+            
+            <div class="victim-card"
+                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
+                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
+                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy.html'">
+                <h3 class="victim-name">Victim Name</h3>
+            </div>
+            
+            <div class="victim-card"
+                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
+                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
+                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll.html'">
                 <h3 class="victim-name">Victim Name</h3>
             </div>
             
@@ -464,6 +448,9 @@
     </div>
 
 </div>
+<div class="bottom-alert" id="copy-alert">
+    <p class="bottom-alert-text" id="copy-alert-text"></p>
+</div>
 <button class="btn" id="to-top">Back to top</button>
 <footer>
     <div class="footer-byline">
@@ -477,17 +464,17 @@
     <div class="footer-contact">
         <h3 class="list-header">Share this feature</h3>
         <ul class="footer-contact-list">
-            <a href="#">
+            <a>
                 <button class="btn share-btn">
                     <i class="fa fa-facebook"></i> Facebook
                 </button>
             </a>
-            <a href="#">
+            <a>
                 <button class="btn share-btn">
                     <i class="fa fa-twitter"></i> Twitter
                 </button>
             </a>
-            <a href="#">
+            <a class="copy-link-btn" data-clipboard-text="http://www.dailytexanonline.com/features/tower/">
                 <button class="btn share-btn">
                     <i id="link-share-bottom" class="fa fa-copy"></i> Copy link
                 </button>

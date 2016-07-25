@@ -1,0 +1,29 @@
+html, body {
+  overflow-x: hidden;
+}
+
+// typography
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+}
+p, a, li, ul, span, pre, code, i  {
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+vr {
+  border-left: 1px solid white;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+hr {
+  margin: .5em 0 .5em 0;
+  border-bottom: 1px solid $grey-color-light;
+  color: lighten($grey-color, 20%);
+}

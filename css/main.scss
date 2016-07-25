@@ -25,8 +25,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 $theme_orange: #cc5527;
 $text_color: #505050;
 
-
-$xs: 320px;
+$xss: 320px;
+$xs: 375px;
 $sm: 425px;
 $md: 768px;
 $lg: 1024px;
@@ -60,7 +60,10 @@ $xl: 1444px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "base",
         "homepage",
         "article",
-        "layout"
+        "header",
+        "footer",
+        "menu"
 ;
