@@ -95,3 +95,42 @@ article.article-content {
     }
   }
 }
+
+@include media-query($xl) {
+
+}
+
+@include media-query($lg) {
+
+}
+
+@include media-query($md) {
+  .container.article.individual {
+    flex-direction: column;
+  }
+  div.col-8.column.article {
+    padding: 0 10vw;
+  }
+  .col-4.related {
+    padding: 0 10vw;
+    width: 100%;
+    .related-articles {
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+  .col-8.column.article, .col-4.related-articles {
+    width: 100%;
+  }
+}
+
+@include media-query($sm) {
+
+}
+
+@include media-query($xs) {
+
+}
+
+
+

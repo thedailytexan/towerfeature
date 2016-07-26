@@ -360,6 +360,22 @@ article.article-content blockquote {
         .col-4.related .related-articles ul a > li:hover {
           color: #346682; }
 
+@media screen and (max-width: 768px) {
+  .container.article.individual {
+    flex-direction: column; }
+
+  div.col-8.column.article {
+    padding: 0 10vw; }
+
+  .col-4.related {
+    padding: 0 10vw;
+    width: 100%; }
+    .col-4.related .related-articles {
+      margin-right: 0;
+      width: 100%; }
+
+  .col-8.column.article, .col-4.related-articles {
+    width: 100%; } }
 .navbar-top.small, .navbar-top.fixed.small, .navbar-top.fixed.small.article {
   display: none; }
 
