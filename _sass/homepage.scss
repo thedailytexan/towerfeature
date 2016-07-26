@@ -69,7 +69,7 @@ div.column.introduction {
 
 }
 
-div.column.article {
+div.column.summary {
   border-bottom: 1px solid lightgray;
   padding: 3rem;
   padding-left: 5rem;
@@ -203,6 +203,7 @@ div.col-12.article.victim-grid {
 
 .story-card-header {
   padding: 2em;
+  padding-bottom: .5em;
 
   a {
     font-size: 1.75em;
@@ -210,6 +211,13 @@ div.col-12.article.victim-grid {
   }
 }
 
+.story-card-byline {
+  font-style: italic;
+  color: $grey-color;
+}
+span.story-card-byline {
+  padding-left: 2em;
+}
 .story-card-content {
   padding: 2em;
   p.story-card-summary, ul, li {
@@ -260,28 +268,37 @@ div.col-12.article.victim-grid {
 }
 
 @include media-query($md) {
-
-}
-
-@include media-query($sm) {
-
-}
-
-@include media-query($xs) {
-  .container.homepage {
-    height: 100vh;
+  .headline-main {
+    left: .25em;
+  }
+  .headline-sub {
+    left: 1em;
+    padding-right: .5em;
+  }
+  .headline-byline {
+    left: 1.5em;
+  }
+  .headline-date {
+    left: 1.5em;
   }
   .col-12.column.introduction {
     padding: 2em 10vw 2em 10vw;
-  }
-  h1.section-head {
-    font-size: 2.5em;
-    margin-top: 0;
   }
   div.column.article {
     padding-left: 0;
     padding: 3rem;
   }
+}
+
+@include media-query($sm) {
+  .container.homepage {
+    height: 100vh;
+  }
+  h1.section-head {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+
   div.col-12.article.victim-grid {
     padding: 3rem 0 0 0;
     h1.section-head {
@@ -305,7 +322,7 @@ div.col-12.article.victim-grid {
   }
   .headline-main {
     text-align: center;
-    font-size: 5em;
+    font-size: 6em;
     left: 0;
     top: 45vh;
   }
@@ -315,6 +332,7 @@ div.col-12.article.victim-grid {
     font-size: 1.25em;
     left: 0;
     padding: 0 1em;
+    line-height: 1.6;
   }
   .headline-byline {
     font-size: 1.25rem;
@@ -328,6 +346,12 @@ div.col-12.article.victim-grid {
     font-size: 1.25rem;
     top: 45vh;
     left: 0;
+  }
+}
+
+@include media-query($xs) {
+  .headline-main {
+    font-size: 5em;
   }
 }
 @include media-query($xss) {

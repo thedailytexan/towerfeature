@@ -6,7 +6,7 @@
     <title>50 Years</title>
     <meta name="description" content="A Daily Texan feature story.">
 
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">  -->
 
     <link rel="stylesheet" href="/features/tower/css/spectre.css">
     <link rel="stylesheet" href="/features/tower/css/font-awesome.min.css">
@@ -16,6 +16,7 @@
 
     <script src="/features/tower/js/jquery.min.js"></script>
     <script src="/features/tower/js/clipboard.min.js"></script>
+    <script src="/features/tower/js/blazy.min.js"></script>
     <script src="/features/tower/js/app.js"></script>
 </head>
 
@@ -92,11 +93,6 @@
             <p>The Heroes</p>
         </div>
     </a>
-    <a href="#survivors">
-        <div class="contents-menu-item">
-            <p>The Survivors</p>
-        </div>
-    </a>
     <a href="#inside-tower">
         <div class="contents-menu-item">
             <p>Inside the Tower</p>
@@ -117,12 +113,12 @@
      onmouseout="document.body.style.overflow='auto';"></div>
 <!-- sharing menu -->
 <ul class="menu share-menu">
-  <a href="#">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
     <p>
       <i data-tooltip="Share on Facebook" id="fb-share" class="fa fa-facebook menu-header-text tooltip-left"></i>
     </p>
   </a>
-  <a href="#">
+  <a href="https://twitter.com/home?status=" target="_blank">
     <p>
       <i data-tooltip="Share on Twitter" id="twitter-share" class="fa fa-twitter menu-header-text"></i>
     </p>
@@ -140,7 +136,7 @@
         <p class="headline-date"> August 1, 2016</p></div>
 </div>
 <p class="byline-illo">Illustration by John Doe</p>
-<div class="container article">
+<div class="container summary">
     <div class="col-12 column introduction">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id tincidunt augue. In at dui odio.
@@ -151,251 +147,340 @@
             et interdum aliquam, neque eros condimentum enim, eget ultricies turpis metus eu neque.
         </p>
     </div>
-    <div class="col-12 column article" id="sniper">
+    <div class="col-12 column summary" id="sniper">
         <h1 class="section-head">The Sniper</h1>
         <div class="story-card-container">
             
+            
             <div class="story-card">
                 <div class="story-card-header">
-                    <a href="#" class="story-card-title">Story Headline</a>
+                    <a href='/features/tower/sniper/2016/07/21/Getting-Guns.html' class="story-card-title">Getting Guns</a>
+                    <p class="story-card-byline">Van</p>
                 </div>
-                <img src="assets/img/test.jpg" class="story-card-img img-responsive" alt="">
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="Getting Guns"
+                     data-src="/features/tower/assets/img/test2.jpg"
+                     data-src-small="">
+                <span class="story-card-byline">
+                                                    
+                                                
+                </span>
                 <div class="story-card-content">
-                    <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-                        tincidunt augue. In at dui odio.</p>
+                   <p class="story-card-summary">Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="#">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/home?status=" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
             </div>
+            
             <div class="story-card">
-
+                <div class="story-card-header">
+                    <a href='/features/tower/sniper/2016/07/21/Institute-For-Play.html' class="story-card-title">Institute for Play</a>
+                    <p class="story-card-byline">Anusha</p>
+                </div>
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="Institute for Play"
+                     data-src="https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg"
+                     data-src-small="">
+                <span class="story-card-byline">
+                                                    
+                                                
+                </span>
+                <div class="story-card-content">
+                   <p class="story-card-summary">Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.</p>
+                </div>
+                <div class="story-card-share">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/home?status=" target="_blank">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </div>
             </div>
+            
             <div class="story-card">
-
+                <div class="story-card-header">
+                    <a href='/features/tower/sniper/2016/07/21/Whitman-Tumor.html' class="story-card-title">Whitman's Tumor</a>
+                    <p class="story-card-byline">Eva</p>
+                </div>
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="Whitman's Tumor"
+                     data-src="https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg"
+                     data-src-small="">
+                <span class="story-card-byline">
+                                                    
+                                                
+                </span>
+                <div class="story-card-content">
+                   <p class="story-card-summary">Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.</p>
+                </div>
+                <div class="story-card-share">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/home?status=" target="_blank">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </div>
             </div>
+            
         </div>
     </div>
-    <div class="col-12 column article victim-grid" id="victims">
+    <div class="col-12 column summary victim-grid" id="victims">
         <h1 class="section-head">The Victims</h1>
+        
         <div class="victim-row">
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%209.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Bill-Speed.html'">
+                <h3 class="victim-name">Bill Speed</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%208.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Claudia-Rutt.html'">
+                <h3 class="victim-name">Claudia Rutt</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%207.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/David-Gunby.html'">
+                <h3 class="victim-name">David Gunby</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%206.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Edna-Townsley.html'">
+                <h3 class="victim-name">Edna Townsley</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%205.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Harry-Walchuck.html'">
+                <h3 class="victim-name">Harry Walchuck</h3>
             </div>
             
         </div>
         <div class="victim-row">
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%204.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Kathy-Whitman.html'">
+                <h3 class="victim-name">Kathy Whitman</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%203.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Margaret-Whitman.html'">
+                <h3 class="victim-name">Margaret Whitman</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%202.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Marguerite-Lamport.html'">
+                <h3 class="victim-name">Marguerite Lamport</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2014.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Mark-Gabour.html'">
+                <h3 class="victim-name">Mark Gabour</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2013.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/nahila/2016/07/21/Paul-Sonntag.html'">
+                <h3 class="victim-name">Paul Sonntag</h3>
             </div>
             
         </div>
         <div class="victim-row">
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2012.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Robert-Boyer.html'">
+                <h3 class="victim-name">Robert Boyer</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2011.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Roy-Schmidt.html'">
+                <h3 class="victim-name">Roy Schmidt</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy%2010.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Thomas-Ashton.html'">
+                <h3 class="victim-name">Thomas Ashton</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll%20copy.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Thomas-Eckman.html'">
+                <h3 class="victim-name">Thomas Eckman</h3>
             </div>
             
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
-                 onclick="document.location = '/features/tower/victim/2016/07/21/welcome-to-jekyll.html'">
-                <h3 class="victim-name">Victim Name</h3>
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
+                 onclick="document.location = '/features/tower/victim/2016/07/21/Thomas-Karr.html'">
+                <h3 class="victim-name">Thomas Karr</h3>
             </div>
             
         </div>
     </div>
-    <div class="col-12 column article" id="heroes">
+    <div class="col-12 column summary" id="heroes">
         <h1 class="section-head">The Heroes</h1>
         <div class="story-card-container">
             
+            
             <div class="story-card">
                 <div class="story-card-header">
-                    <a href="" class="story-card-title">Story Headline</a>
+                    <a href="/features/tower/hero/2016/07/21/Allan-Crum.html" class="story-card-title">Allan Crum</a>
+                    <p class="story-card-byline">Jasleen</p>
                 </div>
-                <img src="assets/img/test.jpg" class="story-card-img img-responsive" alt="">
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="Allan Crum"
+                     data-src="https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg"
+                     data-src-small="">
+                <span class="story-card-byline">
+                                                    
+                                                
+                </span>
                 <div class="story-card-content">
-                    <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-                        tincidunt augue. In at dui odio.</p>
+                    <p class="story-card-summary">Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="#">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/home?status=" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
-            </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
-        </div>
-    </div>
-    <div class="col-12 column article" id="survivors">
-        <h1 class="section-head">The Survivors</h1>
-        <div class="story-card-container">
-            <div class="story-card">
-                <div class="story-card-header" style="padding-bottom: 0;">
-                    <a href="" class="story-card-title">Survivors of the shooting</a>
-                </div>
-                <div class="story-card-content" style="padding-top: 0;">
-                    <ul>
-                        <li>Hello world this is</li>
-                        <li>World a person</li>
-                    </ul>
-                </div>
-                <div class="story-card-share">
-                    <a href="#">
-                        <i class="fa fa-facebook fa-lg"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-twitter fa-lg"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="story-card">
-
             </div>
             
             <div class="story-card">
                 <div class="story-card-header">
-                    <a href="" class="story-card-title">Story Headline</a>
+                    <a href="/features/tower/hero/2016/07/21/Artly-Snuff.html" class="story-card-title">Artly Snuff</a>
+                    <p class="story-card-byline">KT Walsh</p>
                 </div>
-                <img src="assets/img/test.jpg" class="story-card-img img-responsive" alt="">
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="Artly Snuff"
+                     data-src="https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg"
+                     data-src-small="">
+                <span class="story-card-byline">
+                                                    
+                                                
+                </span>
                 <div class="story-card-content">
-                    <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-                        tincidunt augue. In at dui odio.</p>
+                    <p class="story-card-summary">Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="#">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/home?status=" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
             </div>
+            
+            <div class="story-card">
+                <div class="story-card-header">
+                    <a href="/features/tower/hero/2016/07/21/Houston-McCoy.html" class="story-card-title">Houston McCoy</a>
+                    <p class="story-card-byline">Iris</p>
+                </div>
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="Houston McCoy"
+                     data-src="https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg"
+                     data-src-small="">
+                <span class="story-card-byline">
+                                                    
+                                                
+                </span>
+                <div class="story-card-content">
+                    <p class="story-card-summary">Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.</p>
+                </div>
+                <div class="story-card-share">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/home?status=" target="_blank">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="story-card">
+                <div class="story-card-header">
+                    <a href="/features/tower/hero/2016/07/21/Ramiro-Martinez.html" class="story-card-title">Ramiro Martinez</a>
+                    <p class="story-card-byline">Catherine Cardenas</p>
+                </div>
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="Ramiro Martinez"
+                     data-src="https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg"
+                     data-src-small="">
+                <span class="story-card-byline">
+                                                    
+                                                
+                </span>
+                <div class="story-card-content">
+                    <p class="story-card-summary">Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.</p>
+                </div>
+                <div class="story-card-share">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/home?status=" target="_blank">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="story-card">
+                <div class="story-card-header">
+                    <a href="/features/tower/hero/2016/07/21/UMC-Brackenridge.html" class="story-card-title">UMC Brackenridge</a>
+                    <p class="story-card-byline">Megan</p>
+                </div>
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="UMC Brackenridge"
+                     data-src="https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg"
+                     data-src-small="">
+                <span class="story-card-byline">
+                                                    
+                                                
+                </span>
+                <div class="story-card-content">
+                    <p class="story-card-summary">Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.</p>
+                </div>
+                <div class="story-card-share">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/home?status=" target="_blank">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+            
         </div>
     </div>
-    <div class="col-12 column article" id="inside-tower">
+    <div class="col-12 column summary" id="inside-tower">
         <h1 class="section-head">Inside the Tower</h1>
         <h3 class="section-subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
             tincidunt augue. In at dui odio.</h3>
@@ -408,17 +493,21 @@
             </div>
         </div>
     </div>
-    <div class="col-12 column article" id="memorial">
+    <div class="col-12 column summary" id="memorial">
         <h1 class="section-head">The Memorial</h1>
     </div>
-    <div class="col-12 column article" id="texan">
+    <div class="col-12 column summary" id="texan">
         <h1 class="section-head">The Texan</h1>
         <div class="story-card-container">
             <div class="story-card">
                 <div class="story-card-header">
-                    <a href="" class="story-card-title">Story Headline</a>
+                    <a href='/features/tower' class="story-card-title">Story Headline</a>
                 </div>
-                <img src="assets/img/test.jpg" class="story-card-img img-responsive" alt="">
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt=""
+                     data-src=""
+                     data-src-small="">
                 <div class="story-card-content">
                     <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
                         tincidunt augue. In at dui odio.</p>
@@ -483,6 +572,6 @@
     </div>
     <div class="footer-disclaimer">
         <p>Developed by <a href="http://dailytexanonline.com">The Daily Texan</a>.</p>
-        <p>Corrections? Technical difficulties? <a href="mailto:">Let us know.</a></p>
+        <p>Corrections? Technical difficulties? <a href="managingeditor@dailytexanonline.com?">Let us know.</a></p>
     </div>
 </footer>

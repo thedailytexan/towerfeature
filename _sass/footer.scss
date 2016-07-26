@@ -9,6 +9,7 @@
   bottom: 1em;
   right: 1em;
   font-family: Roboto, sans-serif;
+  text-transform: uppercase;
 
   &:hover {
     background: darken(#fff, 5%);
@@ -32,6 +33,7 @@
 }
 }
 footer {
+  background: #fafafa;
   border-top: 1px solid lightgray;
   display: flex;
   align-content: center;
@@ -86,7 +88,7 @@ div.footer-contact {
 
   ul.footer-contact-list {
     button, button > p {
-      background: #fff;
+      background: transparent;
       border: 1px solid darken($grey-color, 30%);
       color: darken($grey-color, 30%);
   }
@@ -112,7 +114,11 @@ div.footer-contact {
 }
 
 @include media-query($lg) {
-
+  ul.footer-contact-list {
+    a > button {
+      margin-top: .5em;
+    }
+  }
 }
 
 @include media-query($md) {
@@ -120,10 +126,6 @@ div.footer-contact {
 }
 
 @include media-query($sm) {
-
-}
-
-@include media-query($xs) {
   footer {
     display: block;
     padding: 2em;
@@ -146,4 +148,8 @@ div.footer-contact {
     font-size: 1.25rem;
     padding: .5rem;
   }
+}
+
+@include media-query($xs) {
+
 }

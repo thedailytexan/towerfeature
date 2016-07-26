@@ -1,15 +1,110 @@
----
-layout: default
----
-<div class="post">
+{% include head.html %}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<!-- fixed nav -->
+<header class="navbar-top fixed article animated fadeInDown">
+  <div id="center-contain-small">
+    <a href="{{ '/' | prepend: site.baseurl }}">
+      <i class="fa fa-chevron-left  fa-lg"></i>
+    </a>
+    <span class="navbar-brand"> The Daily Texan</span>
+    <a href="#" id="share-menu-trigger-small">
+      <i id="share-btn-small" class="fa fa-share fa-lg"></i>
+    </a>
+  </div>
+</header>
+<ul class="menu share-menu article">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+    <p>
+      <i data-tooltip="Share on Facebook" id="fb-share" class="fa fa-facebook menu-header-text tooltip-left"></i>
+    </p>
+  </a>
+  <a href="https://twitter.com/home?status=" target="_blank">
+    <p>
+      <i data-tooltip="Share on Twitter" id="twitter-share" class="fa fa-twitter menu-header-text"></i>
+    </p>
+  </a>
+  <a href="#" class="copy-link-btn" data-clipboard-text="http://www.dailytexanonline.com/features/tower/">
+    <p>
+      <i data-tooltip="Copy link" id="link-share" class="fa fa-copy menu-header-text"></i>
+    </p>
+  </a>
+</ul>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+<div class="container article individual animated fadeIn">
+  <div class="col-8 column article">
+    {% if page.header-image %}
+    <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+         class="img-responsive"
+         alt="{{ page.title }}"
+         data-src="{{ page.header-image }}">
+    {% endif %}
+    <div class="article-header">
+      <h1 class="article-headline">{{ page.title }}</h1>
+      {% if page.subhead %}
+        <h3 class="article-subheadline">{{ page.subhead }}</h3>
+      {% endif %}
+      <a href="http://dailytexanonline.com/author/{{ page.author | downcase }}" target="_blank" class="article-byline">
+        <p>{% if page.author %}By <b>{{ page.author | upcase }}{% else %}{{ By Daily Texan Staff }}{% endif %}</b></p>
+      </a>
+      <p class="article-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+    </div>
+    <article class="article-content">
+      {{ content}}
+    </article>
+  </div>
+  <div class="col-4 related">
+    <div class="related-articles">
+      <h4>Related Articles</h4>
+      <ul class="related-list">
+        {% if page.categories contains 'sniper' %}
+        {% assign sniper = (site.categories['sniper'] | sort: 'title') %}
+        {% for post in sniper %}
+        {% unless post.url == page.url %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <li>{{ post.title }}</li>
+        </a>
+        {% endunless %}
+        {% endfor %}
+        {% elsif page.categories contains 'victim' or page.categories contains 'memorial' %}
+        {% assign victim = (site.categories['victim'] | sort: 'title') %}
+        {% for post in victim %}
+        {% unless post.url == page.url %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <li>{{ post.title }}</li>
+        </a>
+        {% endunless %}
+        {% endfor %}
+        {% elsif page.categories contains 'hero' %}
+        {% assign hero = (site.categories['hero'] | sort: 'title') %}
+        {% for post in hero %}
+        {% unless post.url == page.url %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <li>{{ post.title }}</li>
+        </a>
+        {% endunless %}
+        {% endfor %}
+        {% elsif page.categories contains 'tower' %}
+        {% assign tower = (site.categories['tower'] | sort: 'title') %}
+        {% for post in tower %}
+        {% unless post.url == page.url %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <li>{{ post.title }}</li>
+        </a>
+        {% endunless %}
+        {% endfor %}
+        {% elsif page.categories contains 'texan' %}
+        {% assign sniper = (site.categories['texan'] | sort: 'title') %}
+        {% for post in texan %}
+        {% unless post.url == page.url %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <li>{{ post.title }}</li>
+        </a>
+        {% endunless %}
+        {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+  </div>
 </div>
+
+{% include footer.html %}

@@ -1,6 +1,33 @@
 // navbar
-.navbar-top.small, .navbar-top.fixed.small {
+.navbar-top.small, .navbar-top.fixed.small, .navbar-top.fixed.small.article {
   display: none;
+}
+
+.navbar-top.fixed.article {
+  background: #fff;
+  display: flex !important;
+  z-index: 500;
+
+  .navbar-brand {
+    color: $grey-color-dark;
+  }
+
+  #center-contain-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  a {
+    .fa.fa-share:after {
+      content: '';
+    }
+
+    .fa.fa-close:after {
+      content: '';
+    }
+  }
 }
 
 .navbar-top {
@@ -122,13 +149,34 @@ a {
 
 }
 
+
 @include media-query($sm) {
-
-}
-
-@include media-query($xs) {
   .navbar-top:not(.small), .navbar-top.fixed:not(.small) {
     display: none !important;
+  }
+  .navbar-top.fixed.article {
+    display: flex !important;
+
+    .navbar-brand {
+      color: $grey-color-dark;
+    }
+
+    #center-contain-small {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+    }
+    a {
+      .fa.fa-share:after {
+        content: '';
+      }
+
+      .fa.fa-close:after {
+        content: '';
+      }
+    }
   }
   .navbar-top.small, .navbar-top.fixed.small {
     display: flex;

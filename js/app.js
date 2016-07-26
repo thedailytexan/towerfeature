@@ -91,6 +91,9 @@ var toggleNavBar = {
     init: function(navbar, element) {
         var nav = navbar;
         var elem = element;
+        if (!elem){
+            $(nav).hide();
+        }
         $(document).scroll(function(){
             if ($(elem).visible(true)) {
                 $(nav).hide();
@@ -169,7 +172,6 @@ var copyLinkButton = {
             setTimeout(function() {
                 $('#copy-alert').show();
             }, 3000);
-            $('#copy-alert').hide();
 
             e.clearSelection();
         });
@@ -179,7 +181,6 @@ var copyLinkButton = {
             setTimeout(function() {
                 $('#copy-alert').show();
             }, 3000);
-            $('#copy-alert').hide();
         });
 
     }
@@ -197,15 +198,19 @@ var responsiveDOM = {
             if(window.innerWidth > 375) {
                 $(navbar).remove();
             } else {
-                $('.navbar-top.small').append(nav);
+                $('.navbar-top.small').append(nav); // FIXME totally fuckin broken too
             }
         });
     }
-}
-
+};
 
 $(document).ready(function () {
     $('.navbar-top.fixed').hide();
+
+    //initialize lazy-loader
+    var blazy = new Blazy({
+        selector: '.lazy, img'
+    });
 
     // menu toggles
 
@@ -223,9 +228,9 @@ $(document).ready(function () {
     debounce(toggleNavBar.init('.navbar-top.fixed', '.homepage'), 200, true);
     debounce(topButton.init('#to-top', '.homepage'), 200, true);
     topButton.back_to_top('#to-top');
-    copyLinkButton.init('.copy-link-btn')
+    copyLinkButton.init('.copy-link-btn');
 
     // Responsive DOM manipulation
     responsiveDOM.init('.navbar-top.fixed.small');
-    responsiveDOM.navbar('.navbar-top.fixed.small');
+    responsiveDOM.navbar('.navbar-top.fixed.small:not(".article")');
 });

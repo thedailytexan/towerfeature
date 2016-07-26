@@ -1,17 +1,121 @@
-<div class="post">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-    <p class="post-meta"></p>
-  </header>
+    <title>About</title>
+    <meta name="description" content="A Daily Texan feature story.">
 
-  <article class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+    <!--<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">  -->
+
+    <link rel="stylesheet" href="/features/tower/css/spectre.css">
+    <link rel="stylesheet" href="/features/tower/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/features/tower/css/animate.css">
+    <link rel="stylesheet" href="/features/tower/css/main.css">
+    <link rel="canonical" href="http://dailytexanonline.com/features/tower/about/">
+
+    <script src="/features/tower/js/jquery.min.js"></script>
+    <script src="/features/tower/js/clipboard.min.js"></script>
+    <script src="/features/tower/js/blazy.min.js"></script>
+    <script src="/features/tower/js/app.js"></script>
+</head>
+
+
+<!-- fixed nav -->
+<header class="navbar-top fixed article animated fadeInDown">
+  <div id="center-contain-small">
+    <a href="/features/tower/">
+      <i class="fa fa-chevron-left  fa-lg"></i>
+    </a>
+    <span class="navbar-brand"> The Daily Texan</span>
+    <a href="#" id="share-menu-trigger-small">
+      <i id="share-btn-small" class="fa fa-share fa-lg"></i>
+    </a>
+  </div>
+</header>
+<ul class="menu share-menu article">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+    <p>
+      <i data-tooltip="Share on Facebook" id="fb-share" class="fa fa-facebook menu-header-text tooltip-left"></i>
+    </p>
+  </a>
+  <a href="https://twitter.com/home?status=" target="_blank">
+    <p>
+      <i data-tooltip="Share on Twitter" id="twitter-share" class="fa fa-twitter menu-header-text"></i>
+    </p>
+  </a>
+  <a href="#" class="copy-link-btn" data-clipboard-text="http://www.dailytexanonline.com/features/tower/">
+    <p>
+      <i data-tooltip="Copy link" id="link-share" class="fa fa-copy menu-header-text"></i>
+    </p>
+  </a>
+</ul>
+
+<div class="container article individual animated fadeIn">
+  <div class="col-8 column article">
+    
+    <div class="article-header">
+      <h1 class="article-headline">About</h1>
+      
+      <a href="http://dailytexanonline.com/author/" target="_blank" class="article-byline">
+        <p></b></p>
+      </a>
+      <p class="article-date"></p>
+    </div>
+    <article class="article-content">
+      <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
 
 <p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
 
 <p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
 
-  </article>
-
+    </article>
+  </div>
+  <div class="col-4 related">
+    <div class="related-articles">
+      <h4>Related Articles</h4>
+      <ul class="related-list">
+        
+      </ul>
+    </div>
+  </div>
 </div>
+
+<div class="bottom-alert" id="copy-alert">
+    <p class="bottom-alert-text" id="copy-alert-text"></p>
+</div>
+<button class="btn" id="to-top">Back to top</button>
+<footer>
+    <div class="footer-byline">
+        <h3 class="list-header">Contributors</h3>
+        <ul class="footer-list">
+            <li>Writers: John Doe</li>
+            <li>Writers: John Doe</li>
+            <li>Development Team: Junyuan Tan, Tom Li</li>
+        </ul>
+    </div>
+    <div class="footer-contact">
+        <h3 class="list-header">Share this feature</h3>
+        <ul class="footer-contact-list">
+            <a>
+                <button class="btn share-btn">
+                    <i class="fa fa-facebook"></i> Facebook
+                </button>
+            </a>
+            <a>
+                <button class="btn share-btn">
+                    <i class="fa fa-twitter"></i> Twitter
+                </button>
+            </a>
+            <a class="copy-link-btn" data-clipboard-text="http://www.dailytexanonline.com/features/tower/">
+                <button class="btn share-btn">
+                    <i id="link-share-bottom" class="fa fa-copy"></i> Copy link
+                </button>
+            </a>
+        </ul>
+    </div>
+    <div class="footer-disclaimer">
+        <p>Developed by <a href="http://dailytexanonline.com">The Daily Texan</a>.</p>
+        <p>Corrections? Technical difficulties? <a href="managingeditor@dailytexanonline.com?">Let us know.</a></p>
+    </div>
+</footer>

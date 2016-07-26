@@ -7,7 +7,7 @@
         <p class="headline-date"> August 1, 2016</p></div>
 </div>
 <p class="byline-illo">Illustration by John Doe</p>
-<div class="container article">
+<div class="container summary">
     <div class="col-12 column introduction">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id tincidunt augue. In at dui odio.
@@ -18,158 +18,110 @@
             et interdum aliquam, neque eros condimentum enim, eget ultricies turpis metus eu neque.
         </p>
     </div>
-    <div class="col-12 column article" id="sniper">
+    <div class="col-12 column summary" id="sniper">
         <h1 class="section-head">The Sniper</h1>
         <div class="story-card-container">
-            {% for post in site.categories.sniper %}
-            {% endfor %}
+            {% assign sorted_sniper_posts = (site.categories['sniper'] | sort: 'title') %}
+            {% for post in sorted_sniper_posts %}
             <div class="story-card">
                 <div class="story-card-header">
-                    <a href="#" class="story-card-title">Story Headline</a>
+                    <a href='{{ post.url | prepend: site.baseurl }}' class="story-card-title">{{ post.title }}</a>
+                    <p class="story-card-byline">{%if post.author %}{{ post.author }}{% else %}Daily Texan Staff{% endif %}</p>
                 </div>
-                <img src="assets/img/test.jpg" class="story-card-img img-responsive" alt="{{ post.title }}">
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="{{ post.title }}"
+                     data-src="{{ post.thumbnail }}"
+                     data-src-small="{{ post.thumbnail-small }}">
+                <span class="story-card-byline">{% if post.thumbnail %}
+                                                    {{ post.img-credit }}
+                                                {% else %}
+                                                    Courtesy photo
+                                                {% endif %}
+                </span>
                 <div class="story-card-content">
-                    <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-                        tincidunt augue. In at dui odio.</p>
+                   <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="#">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/home?status=" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
             </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
+            {% endfor %}
         </div>
     </div>
-    <div class="col-12 column article victim-grid" id="victims">
+    <div class="col-12 column summary victim-grid" id="victims">
         <h1 class="section-head">The Victims</h1>
+        {% assign sorted_victim_posts = (site.categories['victim'] | sort: 'title') %}
         <div class="victim-row">
-            {% for post in site.categories.victim limit: 5 %}
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
+            {% for post in sorted_victim_posts limit: 5 %}
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
             {% endfor %}
         </div>
         <div class="victim-row">
-            {% for post in site.categories.victim limit: 5 offset: 5 %}
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
+            {% for post in sorted_victim_posts limit: 5 offset: 5 %}
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
             {% endfor %}
         </div>
         <div class="victim-row">
-            {% for post in site.categories.victim limit: 5 offset: 10 %}
-            <div class="victim-card"
-                 style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(assets/img/test.jpg);"
-                 onmouseover="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(assets/img/test.jpg)');"
-                 onmouseout="$(this).css('background','linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(assets/img/test.jpg)');"
+            {% for post in sorted_victim_posts limit: 5 offset: 10 %}
+            <div class="victim-card lazy"
+                 data-src="assets/img/test.jpg"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
             {% endfor %}
         </div>
     </div>
-    <div class="col-12 column article" id="heroes">
+    <div class="col-12 column summary" id="heroes">
         <h1 class="section-head">The Heroes</h1>
         <div class="story-card-container">
-            {% for post in site.categories.sniper %}
-            {% endfor %}
+            {% assign sorted_hero_posts = (site.categories['hero'] | sort: 'title') %}
+            {% for post in sorted_hero_posts %}
             <div class="story-card">
                 <div class="story-card-header">
-                    <a href="{{ post.url }}" class="story-card-title">Story Headline</a>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="story-card-title">{{ post.title }}</a>
+                    <p class="story-card-byline">{%if post.author %}{{ post.author }}{% else %}Daily Texan Staff{% endif %}</p>
                 </div>
-                <img src="assets/img/test.jpg" class="story-card-img img-responsive" alt="{{ post.title }}">
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="{{ post.title }}"
+                     data-src="{{ post.thumbnail }}"
+                     data-src-small="{{ post.thumbnail-small }}">
+                <span class="story-card-byline">{% if post.thumbnail %}
+                                                    {{ post.img-credit }}
+                                                {% else %}
+                                                    Courtesy photo
+                                                {% endif %}
+                </span>
                 <div class="story-card-content">
-                    <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-                        tincidunt augue. In at dui odio.</p>
+                    <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="#">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/home?status=" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
             </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
-        </div>
-    </div>
-    <div class="col-12 column article" id="survivors">
-        <h1 class="section-head">The Survivors</h1>
-        <div class="story-card-container">
-            <div class="story-card">
-                <div class="story-card-header" style="padding-bottom: 0;">
-                    <a href="{{ post.url }}" class="story-card-title">Survivors of the shooting</a>
-                </div>
-                <div class="story-card-content" style="padding-top: 0;">
-                    <ul>
-                        <li>Hello world this is</li>
-                        <li>World a person</li>
-                    </ul>
-                </div>
-                <div class="story-card-share">
-                    <a href="#">
-                        <i class="fa fa-facebook fa-lg"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-twitter fa-lg"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="story-card">
-
-            </div>
-            {% for post in site.categories.sniper %}
             {% endfor %}
-            <div class="story-card">
-                <div class="story-card-header">
-                    <a href="{{ post.url }}" class="story-card-title">Story Headline</a>
-                </div>
-                <img src="assets/img/test.jpg" class="story-card-img img-responsive" alt="{{ post.title }}">
-                <div class="story-card-content">
-                    <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-                        tincidunt augue. In at dui odio.</p>
-                </div>
-                <div class="story-card-share">
-                    <a href="#">
-                        <i class="fa fa-facebook fa-lg"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-twitter fa-lg"></i>
-                    </a>
-                </div>
-            </div>
         </div>
     </div>
-    <div class="col-12 column article" id="inside-tower">
+    <div class="col-12 column summary" id="inside-tower">
         <h1 class="section-head">Inside the Tower</h1>
         <h3 class="section-subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
             tincidunt augue. In at dui odio.</h3>
@@ -182,17 +134,21 @@
             </div>
         </div>
     </div>
-    <div class="col-12 column article" id="memorial">
+    <div class="col-12 column summary" id="memorial">
         <h1 class="section-head">The Memorial</h1>
     </div>
-    <div class="col-12 column article" id="texan">
+    <div class="col-12 column summary" id="texan">
         <h1 class="section-head">The Texan</h1>
         <div class="story-card-container">
             <div class="story-card">
                 <div class="story-card-header">
-                    <a href="{{ post.url }}" class="story-card-title">Story Headline</a>
+                    <a href='{{ post.url | prepend: site.baseurl }}' class="story-card-title">Story Headline</a>
                 </div>
-                <img src="assets/img/test.jpg" class="story-card-img img-responsive" alt="{{ post.title }}">
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="{{ post.title }}"
+                     data-src="{{ post.thumbnail }}"
+                     data-src-small="{{ post.thumbnail-small }}">
                 <div class="story-card-content">
                     <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
                         tincidunt augue. In at dui odio.</p>
