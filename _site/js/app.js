@@ -204,6 +204,47 @@ var responsiveDOM = {
     }
 };
 
+var randomizer = function(){
+    $.getJSON("/search.json", function(data) {
+        console.log("[search.json loaded for random posts]");
+
+        var postsCount = data.length;
+        var posts = data;
+
+        var randomIndexUsed = [];
+        var counter = 0;
+        var numberOfPosts = 3;
+
+        var divRandomPosts = $(".related-list");
+
+        while (counter < numberOfPosts)
+        {
+            var randomIndex = Math.floor(Math.random() * postsCount);
+
+            if (randomIndexUsed.indexOf(randomIndex) == "-1")
+            {
+                var postHREF = '/features/tower/' + posts[randomIndex].href ;
+                var postTitle = posts[randomIndex].title;
+
+                if (counter == (numberOfPosts - 1))
+                {
+                    divRandomPosts.append('<li><a href="' + postHREF + '">' + postTitle + '</a></li>');
+                }
+                else
+                {
+                    divRandomPosts.append('<li><a href="' + postHREF + '">' + postTitle + '</a></li><hr />');
+                }
+
+                randomIndexUsed.push(randomIndex);
+
+                counter++;
+            }
+        }
+    });
+};
+
+
+
 $(document).ready(function () {
     $('.navbar-top.fixed').hide();
 
@@ -212,6 +253,8 @@ $(document).ready(function () {
         selector: '.lazy, img'
     });
 
+    // init wow
+    new WOW().init();
     // menu toggles
 
     toggleMenu.init('#share-menu-trigger', '.share-menu', '#share-btn');

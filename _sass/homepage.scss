@@ -88,6 +88,15 @@ div.column.summary {
   }
 }
 
+p.section-summary {
+    font-family: Merriweather;
+    font-size: 1.75rem;
+    line-height: 1.6;
+    margin-right: 25vw;
+    margin-bottom: 2em;
+}
+
+
 div.two-panel {
   display: flex;
   flex-direction: row;
@@ -146,23 +155,76 @@ div.col-12.article.victim-grid {
     flex: 1 0 auto;
     height: auto;
     align-items: flex-end;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 
     &:before {
       content: '';
       float: left;
       padding-top: 100%;
     }
+    
+    &:hover {
+      cursor: pointer;
+      cursor: hand;
+    }
 
     .victim-name {
+      position: absolute;
       text-shadow: 0 1px 0 black;
-      margin-top: 9em;
-      font-size: 1.25em;
+      margin-top: 11em;
+      font-size: 1em;
       font-weight: 300;
+      padding-left: .5em;
+      z-index: 10;
     }
 
   }
 }
 
+.victim-row.sm {
+  display: none;
+
+  h3.victim-name {
+    margin-top: 10em;
+  }
+}
+
+.victim-card.placeholder {
+  background: #fff;
+}
+
+.memorial-feature {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 3em;
+  padding-bottom: 1.5em;
+
+  a {
+    color: $link-color;
+    &:hover {
+      color: darken($link-color, 20%);
+    }
+  }
+
+  .memorial-feature-summary {
+    font-family: Merriweather;
+    font-size: 1.75rem;
+    line-height: 1.6;
+    margin-bottom: 2em;
+  }
+}
+
+img.memorial {
+  width: 80%;
+  margin-bottom: 2em;
+}
+
+.survivor {
+  border-top: 1px solid lightgray;
+  margin-top: 3em;
+}
 // CARDS
 
 .story-card-container {
@@ -264,10 +326,42 @@ span.story-card-byline {
 }
 
 @include media-query($lg) {
-
+  .victim-row {
+    display: none;
+  }
+  .victim-row.sm {
+    display: flex;
+  }
+  .victim-row > .victim-card > .victim-name {
+    margin-top: 13em;
+  }
+  #heroes > div.story-card-container {
+    flex-direction: column;
+    .story-card {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 2em;
+    }
+  }
+  #victims {
+    p.section-summary {
+      margin-right: 0;
+    }
+    .memorial-feature {
+      p.memorial-feature-summary {
+        margin-right: 0;
+      }
+    }
+  }
 }
 
 @include media-query($md) {
+  .victim-row {
+    display: none;
+  }
+  .victim-row.sm {
+    display: flex;
+  }
   .headline-main {
     left: .25em;
   }
@@ -288,9 +382,44 @@ span.story-card-byline {
     padding-left: 0;
     padding: 3rem;
   }
+  .memorial-feature {
+    margin-bottom: 0;
+    .memorial-feature-summary {
+      margin-right: 0;
+    }
+  }
+  p.section-summary {
+    margin-right: 0;
+  }
+  div.col-12.summary.victim-grid {
+    padding: 0;
+    h1 {
+      padding-left: 5rem;
+    }
+    .section-summary {
+      padding: 0 5rem;
+    }
+  }
+  .memorial-feature {
+    h3 {
+      padding: 0 5rem;
+    }
+    p.memorial-feature-summary {
+      padding: 0 5rem;
+    }
+  }
 }
 
 @include media-query($sm) {
+  img.memorial {
+    width: 100%;
+  }
+  .victim-row.sm {
+    display: none;
+  }
+  .victim-row {
+    display: flex;
+  }
   .container.homepage {
     height: 100vh;
   }
@@ -299,7 +428,16 @@ span.story-card-byline {
     margin-top: 0;
   }
 
-  div.col-12.article.victim-grid {
+  .container.summary {
+    padding: 0;
+  }
+
+  div.column.summary {
+    padding-left: 0;
+    padding: 3rem;
+  }
+
+  div.col-12.summary.victim-grid {
     padding: 3rem 0 0 0;
     h1.section-head {
       padding-left: 3rem;
@@ -307,6 +445,11 @@ span.story-card-byline {
   }
   .victim-row {
     flex-direction: column;
+  }
+  p.section-summary {
+    padding: 3rem;
+    margin: 0;
+    margin-bottom: 1em;
   }
   .story-card-container {
     flex-direction: column;
@@ -347,16 +490,36 @@ span.story-card-byline {
     top: 45vh;
     left: 0;
   }
+  .memorial-feature {
+    padding: 0;
+  }
+  .survivor {
+    margin-top: 0;
+    h3 {
+      padding-left: 3rem;
+    }
+  }
+  .victim-row > .victim-card > .victim-name {
+    font-size: 1.5em;
+    margin-top: 12em;
+  }
+
 }
 
 @include media-query($xs) {
   .headline-main {
     font-size: 5em;
   }
+  .victim-row > .victim-card > .victim-name {
+    margin-top: 10.5em;
+  }
 }
 @include media-query($xss) {
   .headline-main {
     font-size: 4em;
+  }
+  .victim-row > .victim-card > .victim-name {
+    margin-top: 9em;
   }
 }
 

@@ -1,14 +1,15 @@
 {% include head.html %}
 {% include header.html %}
 <div class="container homepage">
-    <div class="col-12 column"><h1 class="headline-main"> {{ site.title }}</h1>
-        <h3 class="headline-sub"> {{ site.subhead }}</h3>
-        <p class="headline-byline"> By Junyuan Tan, John Doe, James Doe, Jane Doe</p>
-        <p class="headline-date"> August 1, 2016</p></div>
+    <div class="col-12 column">
+        <h1 class="headline-main animated fadeIn"> {{ site.title }}</h1>
+        <h3 class="headline-sub animated fadeIn"> {{ site.subhead }}</h3>
+        <p class="headline-byline animated fadeIn"> By Junyuan Tan, John Doe, James Doe, Jane Doe</p>
+        <p class="headline-date animated fadeIn"> August 1, 2016</p></div>
 </div>
 <p class="byline-illo">Illustration by John Doe</p>
 <div class="container summary">
-    <div class="col-12 column introduction">
+    <div class="col-12 column introduction wow fadeIn">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id tincidunt augue. In at dui odio.
             Pellentesque dapibus ante quis ante lobortis fermentum. Quisque eget bibendum leo. Nam luctus libero ac
@@ -18,7 +19,7 @@
             et interdum aliquam, neque eros condimentum enim, eget ultricies turpis metus eu neque.
         </p>
     </div>
-    <div class="col-12 column summary" id="sniper">
+    <div class="col-12 column summary wow fadeIn" id="sniper">
         <h1 class="section-head">The Sniper</h1>
         <div class="story-card-container">
             {% assign sorted_sniper_posts = (site.categories['sniper'] | sort: 'title') %}
@@ -33,12 +34,9 @@
                      alt="{{ post.title }}"
                      data-src="{{ post.thumbnail }}"
                      data-src-small="{{ post.thumbnail-small }}">
-                <span class="story-card-byline">{% if post.thumbnail %}
-                                                    {{ post.img-credit }}
-                                                {% else %}
-                                                    Courtesy photo
-                                                {% endif %}
-                </span>
+                {% if post.img-credit %}     
+                <span class="story-card-byline">{{ post.img-credit }}</span>
+                {% endif %}
                 <div class="story-card-content">
                    <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
@@ -54,38 +52,129 @@
             {% endfor %}
         </div>
     </div>
-    <div class="col-12 column summary victim-grid" id="victims">
+    <div class="col-12 column summary victim-grid wow fadeIn" id="victims">
         <h1 class="section-head">The Victims</h1>
+        <p class="section-summary">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id tincidunt augue. In at dui odio.
+            Pellentesque dapibus ante quis ante lobortis fermentum. Quisque eget bibendum leo. Nam luctus libero ac
+            mattis ultrices. Suspendisse rhoncus fringilla felis. Cras vel dictum ante, eget ultrices quam. Donec lectus
+            mauris, elementum et tortor at, rutrum viverra urna. Etiam eget maximus purus.
+        </p>
+        <div class="memorial-feature wow fadeIn">
+            {% for post in site.categories['victim_story'] %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h3>{{ post.title }}</h3>
+            </a>
+            <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                 class="memorial img-responsive"
+                 alt="{{ post.title }}"
+                 data-src="{{ post.thumbnail }}"
+                 data-src-small="{{ post.thumbnail-small }}">
+            <p class="memorial-feature-summary">
+            {{ post.summary }}
+            </p>
+            {% endfor %}
+        </div>
         {% assign sorted_victim_posts = (site.categories['victim'] | sort: 'title') %}
-        <div class="victim-row">
+        <div class="victim-row wow fadeIn">
             {% for post in sorted_victim_posts limit: 5 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test.jpg"
+                 data-src="assets/img/test3.jpg"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
             {% endfor %}
         </div>
-        <div class="victim-row">
+        <div class="victim-row wow fadeIn">
             {% for post in sorted_victim_posts limit: 5 offset: 5 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test.jpg"
+                 data-src="assets/img/test3.jpg"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
             {% endfor %}
         </div>
-        <div class="victim-row">
+        <div class="victim-row wow fadeIn">
             {% for post in sorted_victim_posts limit: 5 offset: 10 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test.jpg"
+                 data-src="assets/img/test3.jpg"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
             {% endfor %}
         </div>
+        <div class="victim-row sm wow fadeIn">
+            {% for post in sorted_victim_posts limit: 3 %}
+            <div class="victim-card lazy"
+                 data-src="assets/img/test3.jpg"
+                 onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                <h3 class="victim-name">{{ post.name }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="victim-row sm wow fadeIn">
+            {% for post in sorted_victim_posts limit: 3 offset: 3 %}
+            <div class="victim-card lazy"
+                 data-src="assets/img/test3.jpg"
+                 onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                <h3 class="victim-name">{{ post.name }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="victim-row sm wow fadeIn">
+            {% for post in sorted_victim_posts limit: 3 offset: 6 %}
+            <div class="victim-card lazy"
+                 data-src="assets/img/test3.jpg"
+                 onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                <h3 class="victim-name">{{ post.name }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="victim-row sm wow fadeIn">
+            {% for post in sorted_victim_posts limit: 3 offset: 9 %}
+            <div class="victim-card lazy"
+                 data-src="assets/img/test3.jpg"
+                 onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                <h3 class="victim-name">{{ post.name }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="victim-row sm wow fadeIn">
+            {% for post in sorted_victim_posts limit: 3 offset: 12 %}
+            <div class="victim-card lazy"
+                 data-src="assets/img/test3.jpg"
+                 onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                <h3 class="victim-name">{{ post.name }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="survivor wow fadeIn">
+            <h3>The Survivors</h3>
+            <div class="victim-row wow fadeIn">
+                {% for post in site.categories['survivor'] %}
+                <div class="victim-card lazy"
+                     data-src="assets/img/test2.jpg"
+                     onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                    <h3 class="victim-name">{{ post.name }}</h3>
+                </div>
+                {% endfor %}
+                <div class="victim-card placeholder"></div>
+                <div class="victim-card placeholder"></div>
+                <div class="victim-card placeholder"></div>
+            </div>
+            <div class="victim-row sm wow fadeIn">
+                {% for post in site.categories['survivor'] %}
+                <div class="victim-card lazy"
+                     data-src="assets/img/test2.jpg"
+                     onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                    <h3 class="victim-name">{{ post.name }}</h3>
+                </div>
+                {% endfor %}
+                <div class="victim-card placeholder"></div>
+            </div>
+        </div>
     </div>
-    <div class="col-12 column summary" id="heroes">
+    <div class="col-12 column summary wow fadeIn" id="heroes">
         <h1 class="section-head">The Heroes</h1>
         <div class="story-card-container">
             {% assign sorted_hero_posts = (site.categories['hero'] | sort: 'title') %}
@@ -100,12 +189,9 @@
                      alt="{{ post.title }}"
                      data-src="{{ post.thumbnail }}"
                      data-src-small="{{ post.thumbnail-small }}">
-                <span class="story-card-byline">{% if post.thumbnail %}
-                                                    {{ post.img-credit }}
-                                                {% else %}
-                                                    Courtesy photo
-                                                {% endif %}
-                </span>
+                {% if post.img-credit %}     
+                <span class="story-card-byline">{{ post.img-credit }}</span>
+                {% endif %}
                 <div class="story-card-content">
                     <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
@@ -121,59 +207,80 @@
             {% endfor %}
         </div>
     </div>
-    <div class="col-12 column summary" id="inside-tower">
+    <div class="col-12 column summary wow fadeIn" id="inside-tower">
         <h1 class="section-head">Inside the Tower</h1>
         <h3 class="section-subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
             tincidunt augue. In at dui odio.</h3>
-        <div class="two-panel">
+        <!--<div class="two-panel">
             <div class="col-6 column left">
                 <img src="assets/img/test.jpg" class="img-responsive" alt="{{ post.title }}">
             </div>
             <div class="col-6 column right">
                 <img src="assets/img/test.jpg" class="img-responsive" alt="{{ post.title }}">
             </div>
-        </div>
-    </div>
-    <div class="col-12 column summary" id="memorial">
-        <h1 class="section-head">The Memorial</h1>
-    </div>
-    <div class="col-12 column summary" id="texan">
-        <h1 class="section-head">The Texan</h1>
+        </div>-->
         <div class="story-card-container">
+            {% assign sorted_tower_posts = (site.categories['tower'] | sort: 'title') %}
+            {% for post in sorted_tower_posts %}
             <div class="story-card">
                 <div class="story-card-header">
-                    <a href='{{ post.url | prepend: site.baseurl }}' class="story-card-title">Story Headline</a>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="story-card-title">{{ post.title }}</a>
+                    <p class="story-card-byline">{%if post.author %}{{ post.author }}{% else %}Daily Texan Staff{% endif %}</p>
                 </div>
                 <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
                      class="story-card-img img-responsive"
                      alt="{{ post.title }}"
                      data-src="{{ post.thumbnail }}"
                      data-src-small="{{ post.thumbnail-small }}">
+                {% if post.img-credit %}
+                <span class="story-card-byline">{{ post.img-credit }}</span>
+                {% endif %}
                 <div class="story-card-content">
-                    <p class="story-card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-                        tincidunt augue. In at dui odio.</p>
+                    <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="#">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/home?status=" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
             </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-12 column summary wow fadeIn" id="texan">
+        <h1 class="section-head">The Texan</h1>
+        <div class="story-card-container">
+            {% assign sorted_texan_posts = (site.categories['texan'] | sort: 'title') %}
+            {% for post in sorted_texan_posts %}
             <div class="story-card">
-
+                <div class="story-card-header">
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="story-card-title">{{ post.title }}</a>
+                    <p class="story-card-byline">{%if post.author %}{{ post.author }}{% else %}Daily Texan Staff{% endif %}</p>
+                </div>
+                <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                     class="story-card-img img-responsive"
+                     alt="{{ post.title }}"
+                     data-src="{{ post.thumbnail }}"
+                     data-src-small="{{ post.thumbnail-small }}">
+                {% if post.img-credit %}     
+                <span class="story-card-byline">{{ post.img-credit }}</span>
+                {% endif %}
+                <div class="story-card-content">
+                    <p class="story-card-summary">{{ post.summary }}</p>
+                </div>
+                <div class="story-card-share">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                        <i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/home?status=" target="_blank">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                </div>
             </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
-            <div class="story-card">
-
-            </div>
+            {% endfor %}
         </div>
     </div>
 

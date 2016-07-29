@@ -93,6 +93,13 @@ div.column.summary {
     color: #606060;
     font-size: 1.5em; }
 
+p.section-summary {
+  font-family: Merriweather;
+  font-size: 1.75rem;
+  line-height: 1.6;
+  margin-right: 25vw;
+  margin-bottom: 2em; }
+
 div.two-panel {
   display: flex;
   flex-direction: row; }
@@ -138,16 +145,56 @@ div.col-12.article.victim-grid {
     text-align: center;
     flex: 1 0 auto;
     height: auto;
-    align-items: flex-end; }
+    align-items: flex-end;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
     .victim-row .victim-card:before {
       content: '';
       float: left;
       padding-top: 100%; }
+    .victim-row .victim-card:hover {
+      cursor: pointer;
+      cursor: hand; }
     .victim-row .victim-card .victim-name {
+      position: absolute;
       text-shadow: 0 1px 0 black;
-      margin-top: 9em;
-      font-size: 1.25em;
-      font-weight: 300; }
+      margin-top: 11em;
+      font-size: 1em;
+      font-weight: 300;
+      padding-left: .5em;
+      z-index: 10; }
+
+.victim-row.sm {
+  display: none; }
+  .victim-row.sm h3.victim-name {
+    margin-top: 10em; }
+
+.victim-card.placeholder {
+  background: #fff; }
+
+.memorial-feature {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 3em;
+  padding-bottom: 1.5em; }
+  .memorial-feature a {
+    color: #5d9cbf; }
+    .memorial-feature a:hover {
+      color: #346682; }
+  .memorial-feature .memorial-feature-summary {
+    font-family: Merriweather;
+    font-size: 1.75rem;
+    line-height: 1.6;
+    margin-bottom: 2em; }
+
+img.memorial {
+  width: 80%;
+  margin-bottom: 2em; }
+
+.survivor {
+  border-top: 1px solid lightgray;
+  margin-top: 3em; }
 
 .story-card-container {
   display: flex;
@@ -212,7 +259,34 @@ span.story-card-byline {
     .story-card-share a > i:hover {
       color: #6d6d6d; }
 
+@media screen and (max-width: 1024px) {
+  .victim-row {
+    display: none; }
+
+  .victim-row.sm {
+    display: flex; }
+
+  .victim-row > .victim-card > .victim-name {
+    margin-top: 13em; }
+
+  #heroes > div.story-card-container {
+    flex-direction: column; }
+    #heroes > div.story-card-container .story-card {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 2em; }
+
+  #victims p.section-summary {
+    margin-right: 0; }
+  #victims .memorial-feature p.memorial-feature-summary {
+    margin-right: 0; } }
 @media screen and (max-width: 768px) {
+  .victim-row {
+    display: none; }
+
+  .victim-row.sm {
+    display: flex; }
+
   .headline-main {
     left: .25em; }
 
@@ -231,8 +305,37 @@ span.story-card-byline {
 
   div.column.article {
     padding-left: 0;
-    padding: 3rem; } }
+    padding: 3rem; }
+
+  .memorial-feature {
+    margin-bottom: 0; }
+    .memorial-feature .memorial-feature-summary {
+      margin-right: 0; }
+
+  p.section-summary {
+    margin-right: 0; }
+
+  div.col-12.summary.victim-grid {
+    padding: 0; }
+    div.col-12.summary.victim-grid h1 {
+      padding-left: 5rem; }
+    div.col-12.summary.victim-grid .section-summary {
+      padding: 0 5rem; }
+
+  .memorial-feature h3 {
+    padding: 0 5rem; }
+  .memorial-feature p.memorial-feature-summary {
+    padding: 0 5rem; } }
 @media screen and (max-width: 425px) {
+  img.memorial {
+    width: 100%; }
+
+  .victim-row.sm {
+    display: none; }
+
+  .victim-row {
+    display: flex; }
+
   .container.homepage {
     height: 100vh; }
 
@@ -240,13 +343,25 @@ span.story-card-byline {
     font-size: 2.5em;
     margin-top: 0; }
 
-  div.col-12.article.victim-grid {
+  .container.summary {
+    padding: 0; }
+
+  div.column.summary {
+    padding-left: 0;
+    padding: 3rem; }
+
+  div.col-12.summary.victim-grid {
     padding: 3rem 0 0 0; }
-    div.col-12.article.victim-grid h1.section-head {
+    div.col-12.summary.victim-grid h1.section-head {
       padding-left: 3rem; }
 
   .victim-row {
     flex-direction: column; }
+
+  p.section-summary {
+    padding: 3rem;
+    margin: 0;
+    margin-bottom: 1em; }
 
   .story-card-container {
     flex-direction: column; }
@@ -284,13 +399,31 @@ span.story-card-byline {
     padding: 0 1.5em;
     font-size: 1.25rem;
     top: 45vh;
-    left: 0; } }
+    left: 0; }
+
+  .memorial-feature {
+    padding: 0; }
+
+  .survivor {
+    margin-top: 0; }
+    .survivor h3 {
+      padding-left: 3rem; }
+
+  .victim-row > .victim-card > .victim-name {
+    font-size: 1.5em;
+    margin-top: 12em; } }
 @media screen and (max-width: 375px) {
   .headline-main {
-    font-size: 5em; } }
+    font-size: 5em; }
+
+  .victim-row > .victim-card > .victim-name {
+    margin-top: 10.5em; } }
 @media screen and (max-width: 320px) {
   .headline-main {
-    font-size: 4em; } }
+    font-size: 4em; }
+
+  .victim-row > .victim-card > .victim-name {
+    margin-top: 9em; } }
 .container.article.individual {
   display: flex;
   flex-direction: row;
@@ -331,7 +464,7 @@ article.article-content blockquote {
     font-size: 2rem;
     margin-top: 0; }
   .article-header .article-byline {
-    font-family: Merriweather, serif; }
+    font-family: Roboto, sans-serif; }
   .article-header .article-date {
     font-family: Merriweather, serif; }
 
@@ -402,7 +535,8 @@ article.article-content blockquote {
   display: flex;
   justify-content: space-between;
   height: 10vh;
-  padding: 1em; }
+  padding: 1em;
+  z-index: 500; }
   .navbar-top #share-menu-trigger, .navbar-top #content-menu-trigger {
     border-radius: 5px;
     color: #fff;

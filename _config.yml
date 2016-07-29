@@ -3,10 +3,15 @@ title: 50 Years
 subhead: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel viverra turpis?
 email: juntan@utexas.edu
 description: A Daily Texan feature story.
-baseurl: "/features/tower/" # the subpath of your site, e.g. /blog/
+baseurl: "/features/tower" # the subpath of your site, e.g. /blog/
 url: "http://dailytexanonline.com" # the base hostname & protocol for your site
 twitter: thedailytexan
 facebook: dailytexan
 
 # Build settings
 markdown: kramdown
+
+
+# Output
+
+permalink: /:title.html
