@@ -1,30 +1,35 @@
 .byline-illo {
   color: $grey-color;
   font-size: 1rem;
-  font-family: Merriweather;
-  margin-left: 1em;
+  font-family: Merriweather, Georgia, Cambria, Times, serif;
   margin-top: 1em;
+}
+
+.byline-illo.homepage {
+  margin-left: 1em;
 }
 
 .headline-main {
   color: #fff;
-  font-family: Merriweather;
+  font-family: Merriweather, Georgia, Cambria, Times, serif;
   font-size: 6em;
   font-weight: lighter;
   position: relative;
   top: 55vh;
-  left: .5em
+  left: .5em;
+  text-shadow: 0 1px 0 black;
 }
 
 .headline-sub {
   color: #fff;
-  font-family: Merriweather;
+  font-family: Merriweather, Georgia, Cambria, Times, serif;
   font-size: 1.5em;
   font-weight: lighter;
   position: relative;
   top: 55vh;
   left: 2em;
   font-style: italic;
+  text-shadow: 0 1px 0 black;
 }
 
 .headline-byline {
@@ -33,6 +38,7 @@
   top: 55vh;
   left: 3em;
   text-transform: uppercase;
+  text-shadow: 0 1px 0 black;
 }
 
 .headline-date {
@@ -41,12 +47,17 @@
   top: 55vh;
   left: 3em;
   text-transform: uppercase;
+  text-shadow: 0 1px 0 black;
 }
 
 .container.homepage {
-  background: $theme_orange;
+  background: #fff;
   height: 100vh;
+  padding: 0;
   display: flex;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 div.container.article {
@@ -62,7 +73,7 @@ div.column.introduction {
   padding: 2em 25vw 2em 25vw;
 
   p {
-    font-family: Merriweather;
+    font-family: Merriweather, Georgia, Cambria, Times, serif;
     font-size: 1.75rem;
     line-height: 1.6;
   }
@@ -89,7 +100,7 @@ div.column.summary {
 }
 
 p.section-summary {
-    font-family: Merriweather;
+    font-family: Merriweather, Georgia, Cambria, Times, serif;
     font-size: 1.75rem;
     line-height: 1.6;
     margin-right: 25vw;
@@ -115,7 +126,7 @@ div.column.interactive {
   p.small {
     color: #a0a0a0;
     font-size: 1.25rem;
-    font-family: Merriweather;
+    font-family: Merriweather, Georgia, Cambria, Times, serif;
     margin-top: .5em;
   }
 
@@ -145,6 +156,7 @@ div.col-12.article.victim-grid {
 
   .victim-card {
     background: lightgray;
+    background-position: 0 !important;
     -webkit-background-size: cover !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -197,9 +209,9 @@ div.col-12.article.victim-grid {
 
 .memorial-feature {
   border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 3em;
-  padding-bottom: 1.5em;
+  margin-bottom: 0;
+  margin-top: 2em;
+  padding-bottom: 0;
 
   a {
     color: $link-color;
@@ -209,7 +221,7 @@ div.col-12.article.victim-grid {
   }
 
   .memorial-feature-summary {
-    font-family: Merriweather;
+    font-family: Merriweather, Georgia, Cambria, Times, serif;
     font-size: 1.75rem;
     line-height: 1.6;
     margin-bottom: 2em;
@@ -217,8 +229,7 @@ div.col-12.article.victim-grid {
 }
 
 img.memorial {
-  width: 80%;
-  margin-bottom: 2em;
+  width: auto !important;
 }
 
 .survivor {
@@ -284,7 +295,7 @@ span.story-card-byline {
   padding: 2em;
   p.story-card-summary, ul, li {
     font-size: 1.1em;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
   }
 
@@ -408,8 +419,114 @@ span.story-card-byline {
       padding: 0 5rem;
     }
   }
+  .story-card-header > a.story-card-title {
+    font-size: 1.5em;
+  }
+  .story-card-content p.story-card-summary, .story-card-content ul, .story-card-content li {
+    font-size: 1em;
+  }
 }
 
+@media (min-width: $sm) and (max-width: $md) {
+  img.memorial {
+    width: 100%;
+  }
+  .victim-row.sm {
+    display: none;
+  }
+  .victim-row {
+    display: flex;
+  }
+  .container.homepage {
+    height: 100vh;
+  }
+  h1.section-head {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+
+  .container.summary {
+    padding: 0;
+  }
+
+  div.column.summary {
+    padding-left: 0;
+    padding: 3rem;
+  }
+
+  div.col-12.summary.victim-grid {
+    padding: 3rem 0 0 0;
+    h1.section-head {
+      padding-left: 3rem;
+    }
+  }
+  .victim-row {
+    flex-direction: column;
+  }
+  p.section-summary {
+    padding: 3rem;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+  .story-card-container {
+    flex-direction: column;
+  }
+  .story-card {
+    margin: 0 0 1em 0;
+  }
+  div.two-panel {
+    flex-direction: column;
+    div.col-6 {
+      width: 100%;
+    }
+  }
+  .headline-main {
+    text-align: center;
+    font-size: 6em;
+    left: 0;
+    top: 40vh;
+  }
+  .headline-sub {
+    text-align: left;
+    top: 38vh;
+    font-size: 1.25em;
+    left: 0;
+    padding: 0 1em;
+    line-height: 1.6;
+  }
+  .headline-byline {
+    font-size: 1.25rem;
+    text-align: left;
+    top: 37vh;
+    padding: 0 1.5em;
+    left: 0;
+  }
+  .headline-date {
+    padding: 0 1.5em;
+    font-size: 1.25rem;
+    top: 37vh;
+    left: 0;
+  }
+  .memorial-feature {
+    padding: 0;
+  }
+  .survivor {
+    margin-top: 0;
+    h3 {
+      padding-left: 3rem;
+    }
+  }
+  .victim-row > .victim-card > .victim-name {
+    font-size: 1.5em;
+    margin-top: 12em;
+  }
+  .placeholder {
+    display: none;
+  }
+  .byline-illo {
+    margin-left: 1em;
+  }
+}
 @include media-query($sm) {
   img.memorial {
     width: 100%;
@@ -467,11 +584,11 @@ span.story-card-byline {
     text-align: center;
     font-size: 6em;
     left: 0;
-    top: 45vh;
+    top: 40vh;
   }
   .headline-sub {
     text-align: left;
-    top: 44vh;
+    top: 38vh;
     font-size: 1.25em;
     left: 0;
     padding: 0 1em;
@@ -480,14 +597,14 @@ span.story-card-byline {
   .headline-byline {
     font-size: 1.25rem;
     text-align: left;
-    top: 44vh;
+    top: 37vh;
     padding: 0 1.5em;
     left: 0;
   }
   .headline-date {
     padding: 0 1.5em;
     font-size: 1.25rem;
-    top: 45vh;
+    top: 37vh;
     left: 0;
   }
   .memorial-feature {
@@ -503,7 +620,12 @@ span.story-card-byline {
     font-size: 1.5em;
     margin-top: 12em;
   }
-
+  .placeholder {
+    display: none;
+  }
+  .byline-illo {
+    margin-left: 1em;
+  }
 }
 
 @include media-query($xs) {
@@ -520,6 +642,18 @@ span.story-card-byline {
   }
   .victim-row > .victim-card > .victim-name {
     margin-top: 9em;
+  }
+  .headline-main {
+    top: 40vh;
+  }
+  .headline-sub {
+    top: 37vh;
+  }
+  .headline-byline {
+    top: 37vh;
+  }
+  .headline-date {
+    top: 37vh;
   }
 }
 

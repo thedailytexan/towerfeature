@@ -1,22 +1,22 @@
 {% include head.html %}
 {% include header.html %}
-<div class="container homepage">
+<div class="container homepage lazy" style="background:linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url({{ '/assets/img/towerheader.jpg' | prepend: site.baseurl }});">
     <div class="col-12 column">
         <h1 class="headline-main animated fadeIn"> {{ site.title }}</h1>
         <h3 class="headline-sub animated fadeIn"> {{ site.subhead }}</h3>
-        <p class="headline-byline animated fadeIn"> By Junyuan Tan, John Doe, James Doe, Jane Doe</p>
+        <p class="headline-byline animated fadeIn"> By The Daily Texan Staff</p>
         <p class="headline-date animated fadeIn"> August 1, 2016</p></div>
 </div>
-<p class="byline-illo">Illustration by John Doe</p>
+<p class="byline-illo homepage">Illustration by Amber Perry</p>
 <div class="container summary">
     <div class="col-12 column introduction wow fadeIn">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id tincidunt augue. In at dui odio.
-            Pellentesque dapibus ante quis ante lobortis fermentum. Quisque eget bibendum leo. Nam luctus libero ac
-            mattis ultrices. Suspendisse rhoncus fringilla felis. Cras vel dictum ante, eget ultrices quam. Donec lectus
-            mauris, elementum et tortor at, rutrum viverra urna. Etiam eget maximus purus. Ut volutpat condimentum diam,
-            vitae fermentum augue auctor quis. Mauris id magna sit amet ante lobortis dignissim. Sed malesuada, libero
-            et interdum aliquam, neque eros condimentum enim, eget ultricies turpis metus eu neque.
+            There is no University of Texas without the Tower shooting of 1966. Whether they know it or not, the students that have walked the campus have carried that history with them every day since. The massacre that occurred that summer day left a school, a city and a nation horrified and confused. Today, our students are more familiar with those emotions than the unsuspecting victims and witnesses Whitman left in his wake. Now, fifty years later, we cannot afford to forget the events that took place in those 96 minutes.
         </p>
     </div>
     <div class="col-12 column summary wow fadeIn" id="sniper">
@@ -41,10 +41,10 @@
                    <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//dailytexanonline.com/features/tower/" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="https://twitter.com/home?status=" target="_blank">
+                    <a href="https://twitter.com/home?status=Five%20decades%20after%20the%20UT%20Tower%20shooting,%20The%20Daily%20Texan%20remembers%20those%20involved.%20http%3A//goo.gl/8RXWJj" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
@@ -54,32 +54,11 @@
     </div>
     <div class="col-12 column summary victim-grid wow fadeIn" id="victims">
         <h1 class="section-head">The Victims</h1>
-        <p class="section-summary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id tincidunt augue. In at dui odio.
-            Pellentesque dapibus ante quis ante lobortis fermentum. Quisque eget bibendum leo. Nam luctus libero ac
-            mattis ultrices. Suspendisse rhoncus fringilla felis. Cras vel dictum ante, eget ultrices quam. Donec lectus
-            mauris, elementum et tortor at, rutrum viverra urna. Etiam eget maximus purus.
-        </p>
-        <div class="memorial-feature wow fadeIn">
-            {% for post in site.categories['victim_story'] %}
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <h3>{{ post.title }}</h3>
-            </a>
-            <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-                 class="memorial img-responsive"
-                 alt="{{ post.title }}"
-                 data-src="{{ post.thumbnail }}"
-                 data-src-small="{{ post.thumbnail-small }}">
-            <p class="memorial-feature-summary">
-            {{ post.summary }}
-            </p>
-            {% endfor %}
-        </div>
         {% assign sorted_victim_posts = (site.categories['victim'] | sort: 'title') %}
         <div class="victim-row wow fadeIn">
             {% for post in sorted_victim_posts limit: 5 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test3.jpg"
+                 data-src="{{ post.thumbnail }}"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
@@ -88,7 +67,7 @@
         <div class="victim-row wow fadeIn">
             {% for post in sorted_victim_posts limit: 5 offset: 5 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test3.jpg"
+                 data-src="{{ post.thumbnail }}"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
@@ -97,16 +76,28 @@
         <div class="victim-row wow fadeIn">
             {% for post in sorted_victim_posts limit: 5 offset: 10 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test3.jpg"
+                 data-src="{{ post.thumbnail }}"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
             {% endfor %}
         </div>
+        <div class="victim-row wow fadeIn">
+            {% for post in sorted_victim_posts limit: 5 offset: 15 %}
+            <div class="victim-card lazy"
+                 data-src="{{ post.thumbnail }}"
+                 onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                <h3 class="victim-name">{{ post.name }}</h3>
+            </div>
+            {% endfor %}
+            <div class="victim-card placeholder"></div>
+            <div class="victim-card placeholder"></div>
+            <div class="victim-card placeholder"></div>
+        </div>
         <div class="victim-row sm wow fadeIn">
             {% for post in sorted_victim_posts limit: 3 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test3.jpg"
+                 data-src="{{ post.thumbnail }}"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
@@ -115,7 +106,7 @@
         <div class="victim-row sm wow fadeIn">
             {% for post in sorted_victim_posts limit: 3 offset: 3 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test3.jpg"
+                 data-src="{{ post.thumbnail }}"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
@@ -124,7 +115,7 @@
         <div class="victim-row sm wow fadeIn">
             {% for post in sorted_victim_posts limit: 3 offset: 6 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test3.jpg"
+                 data-src="{{ post.thumbnail }}"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
@@ -133,7 +124,7 @@
         <div class="victim-row sm wow fadeIn">
             {% for post in sorted_victim_posts limit: 3 offset: 9 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test3.jpg"
+                 data-src="{{ post.thumbnail }}"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
@@ -142,18 +133,28 @@
         <div class="victim-row sm wow fadeIn">
             {% for post in sorted_victim_posts limit: 3 offset: 12 %}
             <div class="victim-card lazy"
-                 data-src="assets/img/test3.jpg"
+                 data-src="{{ post.thumbnail }}"
                  onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                 <h3 class="victim-name">{{ post.name }}</h3>
             </div>
             {% endfor %}
         </div>
+        <div class="victim-row sm wow fadeIn">
+            {% for post in sorted_victim_posts limit: 3 offset: 15 %}
+            <div class="victim-card lazy"
+                 data-src="{{ post.thumbnail }}"
+                 onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
+                <h3 class="victim-name">{{ post.name }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+        <p class="byline-illo">Illustrations by Jacky Tovar</p>
         <div class="survivor wow fadeIn">
             <h3>The Survivors</h3>
             <div class="victim-row wow fadeIn">
                 {% for post in site.categories['survivor'] %}
                 <div class="victim-card lazy"
-                     data-src="assets/img/test2.jpg"
+                     data-src="{{ post.thumbnail }}"
                      onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                     <h3 class="victim-name">{{ post.name }}</h3>
                 </div>
@@ -165,13 +166,30 @@
             <div class="victim-row sm wow fadeIn">
                 {% for post in site.categories['survivor'] %}
                 <div class="victim-card lazy"
-                     data-src="assets/img/test2.jpg"
+                     data-src="{{ post.thumbnail }}"
                      onclick="document.location = '{{ post.url | prepend: site.baseurl }}'">
                     <h3 class="victim-name">{{ post.name }}</h3>
                 </div>
                 {% endfor %}
                 <div class="victim-card placeholder"></div>
             </div>
+            <p class="byline-illo">Left: Photo Courtesy Roland Ehlke | Right: </p>
+        </div>
+        <div class="memorial-feature wow fadeIn">
+            {% for post in site.categories['victim_story'] %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h3>{{ post.title }}</h3>
+            </a>
+            <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                 class="memorial img-responsive"
+                 alt="{{ post.title }}"
+                 data-src="{{ post.thumbnail }}"
+                 data-src-small="{{ post.thumbnail-small }}">
+            <p class="byline-illo">Photo by Joshua Guerra</p>
+            <p class="memorial-feature-summary">
+                {{ post.summary }}
+            </p>
+            {% endfor %}
         </div>
     </div>
     <div class="col-12 column summary wow fadeIn" id="heroes">
@@ -196,10 +214,10 @@
                     <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//dailytexanonline.com/features/tower/" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="https://twitter.com/home?status=" target="_blank">
+                    <a href="https://twitter.com/home?status=Five%20decades%20after%20the%20UT%20Tower%20shooting,%20The%20Daily%20Texan%20remembers%20those%20involved.%20http%3A//goo.gl/8RXWJj" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
@@ -209,8 +227,6 @@
     </div>
     <div class="col-12 column summary wow fadeIn" id="inside-tower">
         <h1 class="section-head">Inside the Tower</h1>
-        <h3 class="section-subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
-            tincidunt augue. In at dui odio.</h3>
         <!--<div class="two-panel">
             <div class="col-6 column left">
                 <img src="assets/img/test.jpg" class="img-responsive" alt="{{ post.title }}">
@@ -239,10 +255,10 @@
                     <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//dailytexanonline.com/features/tower/" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="https://twitter.com/home?status=" target="_blank">
+                    <a href="https://twitter.com/home?status=Five%20decades%20after%20the%20UT%20Tower%20shooting,%20The%20Daily%20Texan%20remembers%20those%20involved.%20http%3A//goo.gl/8RXWJj" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>
@@ -272,10 +288,10 @@
                     <p class="story-card-summary">{{ post.summary }}</p>
                 </div>
                 <div class="story-card-share">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//dailytexanonline.com/features/tower/" target="_blank">
                         <i class="fa fa-facebook fa-lg"></i>
                     </a>
-                    <a href="https://twitter.com/home?status=" target="_blank">
+                    <a href="https://twitter.com/home?status=Five%20decades%20after%20the%20UT%20Tower%20shooting,%20The%20Daily%20Texan%20remembers%20those%20involved.%20http%3A//goo.gl/8RXWJj" target="_blank">
                         <i class="fa fa-twitter fa-lg"></i>
                     </a>
                 </div>

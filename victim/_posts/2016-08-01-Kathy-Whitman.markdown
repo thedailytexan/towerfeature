@@ -1,28 +1,26 @@
 ---
 layout: article
-title:  "Kathy Whitman"
+title:  "Kathy Whitman, 23"
 date:   2016-08-01
 name: Kathy Whitman
 categories: victim
-
+thumbnail: assets/img/KathyWhitman.png
 author: Elizabeth Hlavinka
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+![Kathy Whitman](assets/img/KathyWhitman.png)
+{: .victim-img}
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Illustration by Jacky Tovar
+{: .byline-photo}
 
-Jekyll also offers powerful support for code snippets:
+<hr>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+In the early morning of August 1, 1966, Charles Whitman killed his wife, Kathleen “Kathy” Whitman before going to the Tower.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+The couple met in February 1962 and married that August. At 19, Kathy joined Charles in North Carolina, where he returned to the Marine Corps after losing his scholarship to the University. In July 1963, Kathy returned to UT on her own. The two later reunited when he was discharged in December 1964.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+The next fall, Kathy began teaching biology at Sidney Lanier High School. She was a teacher for less than a year before she died.
+
+The day before the mass shooting, Charles bought a knife and binoculars from a 7-Eleven store, and picked up his wife from her summer job as a telephone operator. The next morning, Charles stabbed her repeatedly in the chest as she lay in bed.
+
+Her body was buried in her hometown of Fort Bend County, Texas.

@@ -1,28 +1,23 @@
 ---
 layout: article
-title:  "Mark Gabour"
+title:  "Mark Gabour, 16"
 date:   2016-08-01
 name: Mark Gabour
 categories: victim
-
+thumbnail: assets/img/MarkGabour.png
 author: Daily Texan Life & Arts Staff
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+![Mark Gabour](assets/img/MarkGabour.png)
+{: .victim-img}
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Illustration by Jacky Tovar
+{: .byline-photo}
 
-Jekyll also offers powerful support for code snippets:
+<hr>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Mark Gabour was visiting the University of Texas with his parents, M.J. and Mary, and brother, Mike, 18 from his hometown Texarkana, Texas. His father’s sister, Marguerite Lamport, lived in Austin with her husband, William, and was excited to show them around the city — the first stop was the landmark Tower at UT.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+The family had planned to continue to San Antonio and Houston after their stop in Austin. Mark and his aunt, Marguerite Lamport, died. His brother, Mike, and mother, Mary Francis, lived but retained permanent injuries.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Gabour would have begun his junior year of high school three weeks later.
+

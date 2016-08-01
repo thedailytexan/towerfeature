@@ -1,6 +1,6 @@
 # Site settings
-title: 50 Years
-subhead: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel viverra turpis?
+title: 50 Years Later
+subhead: Five decades after the UT Tower shooting, The Daily Texan remembers those involved in the 96 minutes that changed the University forever.
 email: juntan@utexas.edu
 description: A Daily Texan feature story.
 baseurl: "/features/tower" # the subpath of your site, e.g. /blog/
@@ -10,6 +10,8 @@ facebook: dailytexan
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
 
 
 # Output

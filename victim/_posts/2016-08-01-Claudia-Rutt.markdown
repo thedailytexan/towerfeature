@@ -1,27 +1,25 @@
 ---
 layout: article
-title:  "Claudia Rutt"
+title:  "Claudia Rutt, 18"
 date:   2016-08-01
 name: Claudia Rutt
 categories: victim
-author: Daily Texan Life & Arts Staff
+author: Elizabeth Hlavinka
+thumbnail: assets/img/ClaudiaRutt.png
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![Claudia Rutt](assets/img/ClaudiaRutt.png)
+{: .victim-img}
 
-Jekyll also offers powerful support for code snippets:
+Illustration by Jacky Tovar
+{: .byline-photo}
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<hr>
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Claudia Rutt had recently graduated from Stephen F. Austin High, and had enrolled in Texas Christian University for the upcoming fall semester. She aspired to become a professional dancer.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+On Aug. 1, she and her fiance, Paul Sonntag, were walking together along the Drag. Sonntag was shot and killed. Rutt ran out from her shelter to him, and was shot.
+
+Rutt was wearing her class ring on her finger, and Sonntag’s ring on a chain around her neck. 
+
+Rutt was buried in the Oakwood Cemetery in Austin, Texas. She was survived by her parents, Melvin Rutt and Diane Labowitz, and her sister, Mary Anne Rutt.

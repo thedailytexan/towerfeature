@@ -1,28 +1,24 @@
 ---
 layout: article
-title:  "Edna Townsley"
+title:  "Edna Townsley, 47"
 date:   2016-08-01
 name: Edna Townsley
 categories: victim
-
-author: Daily Texan Life & Arts Staff
+thumbnail: assets/img/EdnaTownsley.png
+author: Elizabeth Hlavinka
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+![Edna Townsley](assets/img/EdnaTownsley.png)
+{: .victim-img}
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Illustration by Jacky Tovar
+{: .byline-photo}
 
-Jekyll also offers powerful support for code snippets:
+<hr>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Edna Townsley was Whitman’s first victim upon arriving to the Tower on Aug. 1. Around the time she would have typically been relieved of her shift, Whitman approached her desk in the observation deck and killed her. 
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Townsley began her career at UT as an elevator operator and was later promoted to a secretary.  She worked there for eight years.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Townsley was divorced, but left behind two beloved sons, Danny and Terry. 
+
+She is remembered by friends and colleagues for her sense of humor and unique laugh. She is buried in Lockhart, Texas.

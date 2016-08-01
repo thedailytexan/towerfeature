@@ -1,3 +1,10 @@
+/* FIXME:
+    - minify and closure compile JS
+    - check FB/twitter share links
+    - check links + baseurl + stories
+ */
+
+
 (function ($) {
 
     /**
@@ -121,22 +128,26 @@ var toggleMenu = {
         $(toggle).click(function () {
             $(scrim).show();
             $(menu).css('display', 'flex');
+            $('body').css('overflow', 'hidden');
         });
 
         $(close).click(function () {
             $(scrim).hide();
             $(menu).css('display', 'none');
+            $('body').css('overflow', 'auto');
         });
 
         $(scrim).click(function () {
             $(scrim).hide();
             $(menu).css('display', 'none');
+            $('body').css('overflow', 'auto');
         });
 
         $(linkList).each(function() {
             $(this).click(function() {
                 $(scrim).hide();
-                $(menu).css('display', 'none')
+                $(menu).css('display', 'none');
+                $('body').css('overflow', 'auto');
             });
         });
     }
@@ -146,13 +157,25 @@ var topButton = {
     init: function (button, element) {
         var btn = button;
         var elem = element;
-        $(document).scroll(function(){
-            if ($(elem).visible(true)) {
-                $(btn).css('display', 'none');
-            } else {
-                $(btn).css('display', 'initial');
-            }
-        });
+
+        if(elem){
+            $(document).scroll(function(){
+                if ($(elem).visible(true)) {
+                    $(btn).css('display', 'none');
+                } else {
+                    $(btn).css('display', 'initial');
+                }
+            });
+        } else {
+            $(document).scroll(function(){
+                if ($(window).scrollTop() == 0) {
+                    $(btn).css('display', 'none')
+                } else {
+                    $(btn).css('display', 'initial');
+                }
+            })
+        }
+
     },
     back_to_top: function(button) {
         $(button).click(function(){
@@ -167,7 +190,6 @@ var copyLinkButton = {
         var clipboard = new Clipboard(button);
 
         clipboard.on('success', function(e) {
-            //FIXME hide1
             $('#copy-alert-text').text('Link copied to clipboard!');
             setTimeout(function() {
                 $('#copy-alert').show();
@@ -198,63 +220,24 @@ var responsiveDOM = {
             if(window.innerWidth > 375) {
                 $(navbar).remove();
             } else {
-                $('.navbar-top.small').append(nav); // FIXME totally fuckin broken too
+                $('.navbar-top.small').append(nav);
             }
         });
     }
 };
 
-var randomizer = function(){
-    $.getJSON("/search.json", function(data) {
-        console.log("[search.json loaded for random posts]");
-
-        var postsCount = data.length;
-        var posts = data;
-
-        var randomIndexUsed = [];
-        var counter = 0;
-        var numberOfPosts = 3;
-
-        var divRandomPosts = $(".related-list");
-
-        while (counter < numberOfPosts)
-        {
-            var randomIndex = Math.floor(Math.random() * postsCount);
-
-            if (randomIndexUsed.indexOf(randomIndex) == "-1")
-            {
-                var postHREF = '/features/tower/' + posts[randomIndex].href ;
-                var postTitle = posts[randomIndex].title;
-
-                if (counter == (numberOfPosts - 1))
-                {
-                    divRandomPosts.append('<li><a href="' + postHREF + '">' + postTitle + '</a></li>');
-                }
-                else
-                {
-                    divRandomPosts.append('<li><a href="' + postHREF + '">' + postTitle + '</a></li><hr />');
-                }
-
-                randomIndexUsed.push(randomIndex);
-
-                counter++;
-            }
-        }
-    });
-};
-
-
-
 $(document).ready(function () {
     $('.navbar-top.fixed').hide();
 
     //initialize lazy-loader
-    var blazy = new Blazy({
+    new Blazy({
         selector: '.lazy, img'
     });
 
     // init wow
-    new WOW().init();
+    new WOW().init({
+        mobile: false
+    });
     // menu toggles
 
     toggleMenu.init('#share-menu-trigger', '.share-menu', '#share-btn');

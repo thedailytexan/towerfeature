@@ -1,24 +1,52 @@
 ---
 layout: article
-title:  "Allan Crum"
+title:  "Civilian Allen Crum assisted in ending Tower shooting"
 date:   2016-08-01
 categories: hero
-summary: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.
-thumbnail: https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg
-
+summary: Co-op manager Allen Crum, along with APD officers, succeeded in stopping the sniper on top of the UT Tower.
+subhead: Co-op manager Allen Crum, along with APD officers, succeeded in stopping the sniper on top of the UT Tower.
+thumbnail: assets/img/crum.jpg
 author: Jasleen Shokar
+img-credit: Photo by Ted Powers
 ---
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. *Vivamus vel tincidunt dui, sed pharetra purus.* Maecenas mi ante, dapibus eu dolor sit amet, sodales bibendum lectus. Vestibulum laoreet ipsum in est finibus, ac pulvinar lacus ultrices. Proin viverra, justo id auctor cursus, felis risus euismod felis, eu venenatis ligula ipsum et sapien. Duis pulvinar diam id est finibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nisl ultrices, consectetur ante et, laoreet risus. Curabitur volutpat dapibus ligula, eu maximus enim lacinia non. Duis varius rhoncus luctus. In hac habitasse platea dictumst. Curabitur commodo justo facilisis malesuada sagittis. Nam vitae scelerisque urna. Integer sagittis turpis lorem.
+![Four men who braved the deadly accurate sniper fire by Charles Joseph Whitman from the Univ. of Texas tower met with newsmen in Austin on August 2, 1966. From left to right are: Allen Crum, university co-op employee; and Austin policemen Ramiro Martinez, Houston McCoy and Jerry Day.](assets/img/crum.jpg)
 
-Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus. Aenean nec laoreet neque. Maecenas mattis convallis ligula eget consectetur. Aliquam eu vehicula leo, quis fringilla risus. Sed pulvinar malesuada tellus, at placerat justo molestie at. Vivamus non congue tellus, vitae ultrices diam. Maecenas faucibus ultricies varius. Duis rutrum, velit ultricies placerat dictum, felis nunc sagittis sapien, eu vulputate elit neque a magna. Nullam dapibus vitae nisi eu mollis. Etiam ultricies, erat pulvinar vulputate tincidunt, turpis ipsum rutrum ex, eu porta lorem arcu ut lacus. Integer euismod ipsum et cursus lobortis. Nunc euismod enim et nisi auctor, quis fermentum tellus ultricies.
+Four men who braved the deadly accurate sniper fire by Charles Joseph Whitman from the Univ. of Texas tower met with newsmen in Austin on August 2, 1966. From left to right are: Allen Crum, university co-op employee; and Austin policemen Ramiro Martinez, Houston McCoy and Jerry Day.
+{: .caption-photo}
 
-In eget laoreet massa. Nunc mattis sodales quam sed ultricies. Curabitur commodo posuere turpis, id dictum arcu euismod eget. Etiam et dui non sapien scelerisque pretium efficitur sit amet nisl. Fusce mollis aliquet varius. Aliquam ullamcorper sem massa, ac pellentesque nisl ullamcorper tincidunt. Nunc et dui nec mi ornare auctor sit amet eget ipsum. Duis euismod sapien at ante accumsan, non dignissim nunc vulputate. Nulla tincidunt, justo eu viverra sollicitudin, tortor nibh tempor leo, ut bibendum mi lectus a ipsum.
+Photo by Ted Powers, Associated Press
+{: .byline-photo}
 
-Aliquam erat volutpat. Proin in placerat dui, quis faucibus dui. Cras imperdiet urna vitae mi blandit sollicitudin. Pellentesque ut diam pretium, tempor nunc vitae, dapibus lorem. Pellentesque hendrerit mi vitae placerat pharetra. Donec posuere neque sed neque lobortis cursus. Aliquam ultrices condimentum odio in pretium. Ut malesuada cursus nulla non sagittis. Donec sagittis eget justo in auctor. Nam at justo quam. Aliquam non lectus tellus. Nunc scelerisque sollicitudin libero, non vehicula turpis molestie sit amet. Fusce ex arcu, sollicitudin in mi in, sollicitudin vestibulum ex. In hac habitasse platea dictumst. Vivamus nisl lacus, facilisis sit amet sapien sit amet, eleifend luctus lacus.
+<hr>
 
-Nullam sit amet orci tortor. Vestibulum quis augue mattis, tincidunt arcu ut, sollicitudin purus. Donec nec rhoncus dui. Praesent aliquam nisi ac turpis efficitur porttitor. Pellentesque tempus orci a massa dictum feugiat. Pellentesque magna dolor, fringilla nec auctor id, elementum at ante. Aliquam posuere odio in risus tempus auctor. Cras eleifend ornare nisi, ut accumsan lectus sagittis nec. Vestibulum pretium quam vitae magna sollicitudin sodales. Ut fringilla ipsum porta metus ultrices dictum. In hac habitasse platea dictumst. Nullam aliquam blandit nisi, vitae lobortis risus scelerisque id. 
+A group of students crowded around a boy being dragged across the ground, as more joined to watch. Across the street at the University Co-op, Allen Crum, the first floor supervisor, took notice and assumed it was a fight between students. He walked over to intervene. 
+In his deposition, Crum said once he realized the boy had been shot, he immediately tried to stop the blood flow as he heard more gunshots. At the time, he did not know where they were coming from. 
 
-> Sed vulputate luctus tristique. Nullam rutrum enim tellus, vitae sagittis turpis feugiat eget. 
-> Ut aliquet feugiat facilisis. Nunc eget pellentesque dolor.
+After showing another student how to care for the wounded boy, he ran back to the Co-op, ushering employees and customers away from the windows, before heading back outside to stop the traffic and clear the street. 
 
-![FLOTUS](http://cp91279.biography.com/BIO_Bio-Shorts_Michelle-Obama-Mini-Biography_0_181279_SF_HD_768x432-16x9.jpg)
+Crum said he wanted to call his wife. 
+
+“My wife knew it was my lunch hour and I knew that she would worry,” his deposition reads.  
+
+When he couldn’t find a phone in what is now the FAC, he decided to use the phones available in the Tower. 
+
+Now aware of the shooter’s location, he waited until shots were fired from the East side of the Tower before running across the street into the Main Building. Inside, he located a phone, but the lines were busy. University of Texas guards told him they had phoned the police already. 
+He met Austin Police officer Jerry Day, who was already there, and offered his help. Someone came inside the Tower to tell them there were more casualties to the south; Crum and Day went to see. His deposition describes a man lying on the grass, and two more men and two women lying on the concrete. 
+
+Crum and Officer Day did not know where in the tower the shooter was because the shots were fired rapidly, from all directions. 
+
+“At this time we both thought that there was a possibility of two people in the tower,” Crum wrote. 
+
+Shortly after, they were joined by another officer, Ramiro Martinez and Texas Department of Public Safety trooper W.A. Cowan who had an old
+Remington .30-caliber  rifle and a revolver. 
+
+“I asked this man if he would give me the rifle, I would volunteer to [go up to the observation deck] with him,” Crum wrote in his deposition. 
+As the men made their way to the observation deck, Crum asked Martinez, “Are we playing for keeps?”
+
+“You’re damn right we are,” Martinez replied.
+
+Crum, and officers Day and Martinez forced through a makeshift barricade the shooter had assembled and began exchanging fire with the gunman. 
+Once the sniper had been shot, the officers suggested someone wave a white flag to cease the shots coming from the ground. Crum then took out his handkerchief and waved it on the west and south sides of the building. 
+
+In an interview with the Austin-American Statesman 25 years after the shooting, Crum said he had moved to Las Vegas and worked as a repairman for slot machines before moving outside of the city. 
+

@@ -1,27 +1,40 @@
 ---
 layout: article
-title:  "Book Launch"
+title:  "Austin History Center opens exhibit on UT Tower Shooting"
 date:   2016-08-01
 categories: tower
-summary: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.
-subhead: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectu?
-header-image: /features/tower/assets/img/test2.jpg
-thumbnail: /features/tower/assets/img/test2.jpg
+summary: The authors of a new book outlining the history of the shooter and the events leading up to it discussed the investigative process.
+subhead: The authors of a new book outlining the history of the shooter and the events leading up to it discussed the investigative process.
+header-image: /features/tower/assets/img/book.jpg
+thumbnail: /features/tower/assets/img/book.jpg
+img-credit: Photo by Joshua Guerra
 
 author: Catherine Marfin
 ---
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. *Vivamus vel tincidunt dui, sed pharetra purus.* Maecenas mi ante, dapibus eu dolor sit amet, sodales bibendum lectus. Vestibulum laoreet ipsum in est finibus, ac pulvinar lacus ultrices. Proin viverra, justo id auctor cursus, felis risus euismod felis, eu venenatis ligula ipsum et sapien. Duis pulvinar diam id est finibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nisl ultrices, consectetur ante et, laoreet risus. Curabitur volutpat dapibus ligula, eu maximus enim lacinia non. Duis varius rhoncus luctus. In hac habitasse platea dictumst. Curabitur commodo justo facilisis malesuada sagittis. Nam vitae scelerisque urna. Integer sagittis turpis lorem.
+![Louise Grose, an attendee at tuesday evening's The Tower Sniper book launch and reception examines Charles Whitman's suicide letters. The letters are part of a new exhibit at the Austin History Center.](assets/img/book.jpg)
 
-![FLOTUS](/features/tower/assets/img/test3.jpg)
+Louise Grose, an attendee at tuesday evening's The Tower Sniper book launch and reception examines Charles Whitman's suicide letters. The letters are part of a new exhibit at the Austin History Center.
+{: .caption-photo}
 
-Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus. Aenean nec laoreet neque. Maecenas mattis convallis ligula eget consectetur. Aliquam eu vehicula leo, quis fringilla risus. Sed pulvinar malesuada tellus, at placerat justo molestie at. Vivamus non congue tellus, vitae ultrices diam. Maecenas faucibus ultricies varius. Duis rutrum, velit ultricies placerat dictum, felis nunc sagittis sapien, eu vulputate elit neque a magna. Nullam dapibus vitae nisi eu mollis. Etiam ultricies, erat pulvinar vulputate tincidunt, turpis ipsum rutrum ex, eu porta lorem arcu ut lacus. Integer euismod ipsum et cursus lobortis. Nunc euismod enim et nisi auctor, quis fermentum tellus ultricies.
+Photo by Joshua Guerra, Daily Texan Staff
+{: .byline-photo}
 
-In eget laoreet massa. Nunc mattis sodales quam sed ultricies. Curabitur commodo posuere turpis, id dictum arcu euismod eget. Etiam et dui non sapien scelerisque pretium efficitur sit amet nisl. Fusce mollis aliquet varius. Aliquam ullamcorper sem massa, ac pellentesque nisl ullamcorper tincidunt. Nunc et dui nec mi ornare auctor sit amet eget ipsum. Duis euismod sapien at ante accumsan, non dignissim nunc vulputate. Nulla tincidunt, justo eu viverra sollicitudin, tortor nibh tempor leo, ut bibendum mi lectus a ipsum.
+<hr>
 
-Aliquam erat volutpat. Proin in placerat dui, quis faucibus dui. Cras imperdiet urna vitae mi blandit sollicitudin. Pellentesque ut diam pretium, tempor nunc vitae, dapibus lorem. Pellentesque hendrerit mi vitae placerat pharetra. Donec posuere neque sed neque lobortis cursus. Aliquam ultrices condimentum odio in pretium. Ut malesuada cursus nulla non sagittis. Donec sagittis eget justo in auctor. Nam at justo quam. Aliquam non lectus tellus. Nunc scelerisque sollicitudin libero, non vehicula turpis molestie sit amet. Fusce ex arcu, sollicitudin in mi in, sollicitudin vestibulum ex. In hac habitasse platea dictumst. Vivamus nisl lacus, facilisis sit amet sapien sit amet, eleifend luctus lacus.
+In honor of the opening of the exhibit “Looking Back: 50 Years After the UT Tower Shooting” on Tuesday evening, the Austin History Center hosted the launch of a new book, “Texas Tower Sniper: America’s First Campus Active Shooter.”
 
-Nullam sit amet orci tortor. Vestibulum quis augue mattis, tincidunt arcu ut, sollicitudin purus. Donec nec rhoncus dui. Praesent aliquam nisi ac turpis efficitur porttitor. Pellentesque tempus orci a massa dictum feugiat. Pellentesque magna dolor, fringilla nec auctor id, elementum at ante. Aliquam posuere odio in risus tempus auctor. Cras eleifend ornare nisi, ut accumsan lectus sagittis nec. Vestibulum pretium quam vitae magna sollicitudin sodales. Ut fringilla ipsum porta metus ultrices dictum. In hac habitasse platea dictumst. Nullam aliquam blandit nisi, vitae lobortis risus scelerisque id. 
+On Aug. 1, 1966, engineering student Charles Whitman went to the top of the UT Tower armed with several rifles, pistols and a sawed-off shotgun and fired at civilians for over 90 minutes, killing 16 people and wounding 31 others. The new book, written by Monte Akers, Nathan Akers and Robert Friedman, outlines the tragedy using witness interviews, examination of primary sources, handwriting analysis and expert testimonies.
 
-> Sed vulputate luctus tristique. Nullam rutrum enim tellus, vitae sagittis turpis feugiat eget. 
-> Ut aliquet feugiat facilisis. Nunc eget pellentesque dolor.
+“We remember this horrific event that took place 50 years ago in recognition of the victims affected, in celebration of the heroes, both sung and unsung … and for the most powerful reason — because those who do not learn from the past are condemned to repeat it,” said Susan Rittereiser, archives and manuscripts curator for the center.
 
+The three authors discussed why the event still resonates with Austin after so many years and how the team debunked issues originally misunderstood in the wake of the tragedy.
+
+Monte Akers, a former Texas State professor and current attorney, opened the discussion, explaining how the team uncovered new information through the accounts of witnesses whose stories hadn’t been told, such as a former friend of Whitman’s with whom he regularly played poker and the story of an Austin American-Statesman reporter who was at the Tower for the duration of the shooting.
+
+Roger Friedman, a clinical psychologist and social worker, was close friends with victim Paul Sonntag, who died on Guadalupe Street that day. Friedman read an excerpt from the book in which he describes visiting the Sonntag family the night of the shooting.
+
+“I relate to this story both as a psychologist and as a friend,” Friedman said. “While it is impossible to justify what he did that day, it is possible to understand why he did it.”
+
+Nathan Akers, Monte’s son and a 2013 Texas State University graduate, said it was important to remember the tragedy in an era the team characterized as “an epidemic of trauma.”
+
+“A shift is underway, a shift in the right direction but one that took us five decades to get to,” Nathan Akers said. “We will continue to push for the right way this story should be told so we can bring clarity to those affected. Truth heals, and we hope we can contribute to the healing and to how this legacy is perceived.”

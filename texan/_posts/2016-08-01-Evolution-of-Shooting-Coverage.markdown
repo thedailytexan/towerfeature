@@ -1,27 +1,45 @@
 ---
 layout: article
-title:  "Evolution of Shooting Coverage"
+title:  "Media coverage of shootings evolves over past 50 years"
 date:   2016-08-01
 categories: texan
-summary: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.
-subhead: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectu?
-header-image: /features/tower/assets/img/test2.jpg
-thumbnail: /features/tower/assets/img/test2.jpg
+summary: The morning after the 1966 UT Tower shooting — what is known today as one of the worst mass shootings in modern U.S. history — The Austin American’s front-page headline read, “'Everyone’ Loved Him.”
+img-credit: Illustration by Kelly Smith
+thumbnail: assets/img/coverage.jpg
 
 author: Anna McCreary
 ---
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. *Vivamus vel tincidunt dui, sed pharetra purus.* Maecenas mi ante, dapibus eu dolor sit amet, sodales bibendum lectus. Vestibulum laoreet ipsum in est finibus, ac pulvinar lacus ultrices. Proin viverra, justo id auctor cursus, felis risus euismod felis, eu venenatis ligula ipsum et sapien. Duis pulvinar diam id est finibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nisl ultrices, consectetur ante et, laoreet risus. Curabitur volutpat dapibus ligula, eu maximus enim lacinia non. Duis varius rhoncus luctus. In hac habitasse platea dictumst. Curabitur commodo justo facilisis malesuada sagittis. Nam vitae scelerisque urna. Integer sagittis turpis lorem.
+![Infographic on School Shootings](assets/img/coverage.jpg)
 
-![FLOTUS](/features/tower/assets/img/test3.jpg)
+Illustration by Kelly Smith
+{: .byline-photo}
 
-Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus. Aenean nec laoreet neque. Maecenas mattis convallis ligula eget consectetur. Aliquam eu vehicula leo, quis fringilla risus. Sed pulvinar malesuada tellus, at placerat justo molestie at. Vivamus non congue tellus, vitae ultrices diam. Maecenas faucibus ultricies varius. Duis rutrum, velit ultricies placerat dictum, felis nunc sagittis sapien, eu vulputate elit neque a magna. Nullam dapibus vitae nisi eu mollis. Etiam ultricies, erat pulvinar vulputate tincidunt, turpis ipsum rutrum ex, eu porta lorem arcu ut lacus. Integer euismod ipsum et cursus lobortis. Nunc euismod enim et nisi auctor, quis fermentum tellus ultricies.
+<hr>
 
-In eget laoreet massa. Nunc mattis sodales quam sed ultricies. Curabitur commodo posuere turpis, id dictum arcu euismod eget. Etiam et dui non sapien scelerisque pretium efficitur sit amet nisl. Fusce mollis aliquet varius. Aliquam ullamcorper sem massa, ac pellentesque nisl ullamcorper tincidunt. Nunc et dui nec mi ornare auctor sit amet eget ipsum. Duis euismod sapien at ante accumsan, non dignissim nunc vulputate. Nulla tincidunt, justo eu viverra sollicitudin, tortor nibh tempor leo, ut bibendum mi lectus a ipsum.
+The morning after the 1966 UT Tower shooting — what is known today as one of the worst mass shootings in modern U.S. history — The Austin American’s front-page headline read, “Everyone Loved Him.”
 
-Aliquam erat volutpat. Proin in placerat dui, quis faucibus dui. Cras imperdiet urna vitae mi blandit sollicitudin. Pellentesque ut diam pretium, tempor nunc vitae, dapibus lorem. Pellentesque hendrerit mi vitae placerat pharetra. Donec posuere neque sed neque lobortis cursus. Aliquam ultrices condimentum odio in pretium. Ut malesuada cursus nulla non sagittis. Donec sagittis eget justo in auctor. Nam at justo quam. Aliquam non lectus tellus. Nunc scelerisque sollicitudin libero, non vehicula turpis molestie sit amet. Fusce ex arcu, sollicitudin in mi in, sollicitudin vestibulum ex. In hac habitasse platea dictumst. Vivamus nisl lacus, facilisis sit amet sapien sit amet, eleifend luctus lacus.
+The article went on to describe Charles Whitman as “a good son, a top Boy Scout, an excellent Marine, an honor student, a hard worker, a loving husband, a fine Scoutmaster, a handsome man, a wonderful friend to all who knew him — and an excellent sniper.”
+ 
+For weeks, news coverage focused on how a seemingly good man could commit mass murder and if his tumor was really to blame. 
+ 
+After some time passed, however, talk of Whitman and the shooting died down. The University shut down for a single day, and flags flew at half mast for one week. For the next 33 years, the University was silent. 
 
-Nullam sit amet orci tortor. Vestibulum quis augue mattis, tincidunt arcu ut, sollicitudin purus. Donec nec rhoncus dui. Praesent aliquam nisi ac turpis efficitur porttitor. Pellentesque tempus orci a massa dictum feugiat. Pellentesque magna dolor, fringilla nec auctor id, elementum at ante. Aliquam posuere odio in risus tempus auctor. Cras eleifend ornare nisi, ut accumsan lectus sagittis nec. Vestibulum pretium quam vitae magna sollicitudin sodales. Ut fringilla ipsum porta metus ultrices dictum. In hac habitasse platea dictumst. Nullam aliquam blandit nisi, vitae lobortis risus scelerisque id. 
+In an online research project, “Behind the Tower: New Histories of the UT Tower Shooting,” Maria Hammack, a Ph.D. student in history, explored the “collective amnesia” that followed early mass shootings across America. 
 
-> Sed vulputate luctus tristique. Nullam rutrum enim tellus, vitae sagittis turpis feugiat eget. 
-> Ut aliquet feugiat facilisis. Nunc eget pellentesque dolor.
+“It’s a way of healing, or maybe, what I gather, a way to desensitize or detach ourselves from the pain,” Hammack said. “Nowadays, the idea is opposite — that in order for you to move on and heal, you have to talk about it. But back then the notion was very different.” 
 
+In the past 50 years, media treatment of subsequent shootings has evolved, prompting nationwide discussions of mental health and public policy after the attacks at Columbine in 1999 and Virginia Tech in 2007. Hammack said UT’s 50th anniversary memorial service on Monday is an indication of that shift.
+
+“I think digging into these histories and sort of pulling out and unveiling the truth of what happened is going to help people, and the whole community, move on and heal,” Hammack said.
+
+Many news organizations have also shifted their focus away from stories about the shooters in favor of those about the victims. To encourage this change, Texas State University launched the “Don’t Name Them” campaign. Pete Blair, the program’s executive director, said the campaign is based on the discovery of a direct contagion effect for active shooter events.
+
+“If you know that they’re motivated by desire for notoriety or fame, then if you reduce the amount of notoriety or fame they get for that, it should reduce the frequency for which you see the events occur,” Blair said. 
+
+Matt Chittum, who covered many of the Virginia Tech victims’ stories for The Roanoke Times, said students’ cell phone footage of the shooting provided accurate accounts of what happened, but overshadowed the victims with graphic images and risked making a celebrity out of their killer.
+
+“When you’re doing a crime story, you don’t want to let the victims get lost in there,” Chittum said. “Our main goal was to be as human as possible.” 
+
+One of the biggest changes, however, is the media’s growing experience in covering mass shootings. After Virginia Tech, Chittum said The Roanoke Times received a gift package of food from a newspaper in Oklahoma City who empathized with what their reporters were going through.
+
+“Essentially we’ve repeated that — we just sent a package down to Orlando, and prior to that we sent one to WDBJ,” Chittum said. “It’s a really nice thing, but we don’t do it every time because it happens so often now. We’re getting too versed in how to cover these things.”  

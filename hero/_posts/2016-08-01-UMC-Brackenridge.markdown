@@ -1,24 +1,54 @@
 ---
 layout: article
-title:  "UMC Brackenridge"
+title:  "Brackenridge Hospital: Locals come together in face of tragedy"
 date:   2016-08-01
 categories: hero
-summary: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.
-thumbnail: https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg
+summary:  On an uneventful Monday morning at Brackenridge Hospital, nurse Norma White sent her staff home early.
+subhead:  On an uneventful Monday morning at Brackenridge Hospital, nurse Norma White sent her staff home early.
+thumbnail: assets/img/0801_AlbertLee.jpg
+img-credit: Illustration by Albert Lee
 
 author: Megan Hix
 ---
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. *Vivamus vel tincidunt dui, sed pharetra purus.* Maecenas mi ante, dapibus eu dolor sit amet, sodales bibendum lectus. Vestibulum laoreet ipsum in est finibus, ac pulvinar lacus ultrices. Proin viverra, justo id auctor cursus, felis risus euismod felis, eu venenatis ligula ipsum et sapien. Duis pulvinar diam id est finibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nisl ultrices, consectetur ante et, laoreet risus. Curabitur volutpat dapibus ligula, eu maximus enim lacinia non. Duis varius rhoncus luctus. In hac habitasse platea dictumst. Curabitur commodo justo facilisis malesuada sagittis. Nam vitae scelerisque urna. Integer sagittis turpis lorem.
+![Brackenridge Hospital](assets/img/0801_AlbertLee.jpg)
 
-Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus. Aenean nec laoreet neque. Maecenas mattis convallis ligula eget consectetur. Aliquam eu vehicula leo, quis fringilla risus. Sed pulvinar malesuada tellus, at placerat justo molestie at. Vivamus non congue tellus, vitae ultrices diam. Maecenas faucibus ultricies varius. Duis rutrum, velit ultricies placerat dictum, felis nunc sagittis sapien, eu vulputate elit neque a magna. Nullam dapibus vitae nisi eu mollis. Etiam ultricies, erat pulvinar vulputate tincidunt, turpis ipsum rutrum ex, eu porta lorem arcu ut lacus. Integer euismod ipsum et cursus lobortis. Nunc euismod enim et nisi auctor, quis fermentum tellus ultricies.
+Illustration by Albert Lee
+{: .byline-photo}
 
-In eget laoreet massa. Nunc mattis sodales quam sed ultricies. Curabitur commodo posuere turpis, id dictum arcu euismod eget. Etiam et dui non sapien scelerisque pretium efficitur sit amet nisl. Fusce mollis aliquet varius. Aliquam ullamcorper sem massa, ac pellentesque nisl ullamcorper tincidunt. Nunc et dui nec mi ornare auctor sit amet eget ipsum. Duis euismod sapien at ante accumsan, non dignissim nunc vulputate. Nulla tincidunt, justo eu viverra sollicitudin, tortor nibh tempor leo, ut bibendum mi lectus a ipsum.
+<hr>
 
-Aliquam erat volutpat. Proin in placerat dui, quis faucibus dui. Cras imperdiet urna vitae mi blandit sollicitudin. Pellentesque ut diam pretium, tempor nunc vitae, dapibus lorem. Pellentesque hendrerit mi vitae placerat pharetra. Donec posuere neque sed neque lobortis cursus. Aliquam ultrices condimentum odio in pretium. Ut malesuada cursus nulla non sagittis. Donec sagittis eget justo in auctor. Nam at justo quam. Aliquam non lectus tellus. Nunc scelerisque sollicitudin libero, non vehicula turpis molestie sit amet. Fusce ex arcu, sollicitudin in mi in, sollicitudin vestibulum ex. In hac habitasse platea dictumst. Vivamus nisl lacus, facilisis sit amet sapien sit amet, eleifend luctus lacus.
+On an uneventful Monday morning at Brackenridge Hospital, nurse Norma White sent her staff home early. They had already finished the day’s work, and with many of the doctors out of town, there was no need to keep them around.
 
-Nullam sit amet orci tortor. Vestibulum quis augue mattis, tincidunt arcu ut, sollicitudin purus. Donec nec rhoncus dui. Praesent aliquam nisi ac turpis efficitur porttitor. Pellentesque tempus orci a massa dictum feugiat. Pellentesque magna dolor, fringilla nec auctor id, elementum at ante. Aliquam posuere odio in risus tempus auctor. Cras eleifend ornare nisi, ut accumsan lectus sagittis nec. Vestibulum pretium quam vitae magna sollicitudin sodales. Ut fringilla ipsum porta metus ultrices dictum. In hac habitasse platea dictumst. Nullam aliquam blandit nisi, vitae lobortis risus scelerisque id. 
+But one by one, the same nurses she’d just sent home soon returned to the hospital. They’d seen reports of a sniper shooting people from the top of the University Tower and raced back to Brackenridge before the emergency room staff had been notified of any incoming victims. 
 
-> Sed vulputate luctus tristique. Nullam rutrum enim tellus, vitae sagittis turpis feugiat eget. 
-> Ut aliquet feugiat facilisis. Nunc eget pellentesque dolor.
+Across the hospital, Dr. Robert Pape was in a meeting with their chief of staff when a call came in from the ER: “I need all the help I can get. There’s a nut on the UT campus shooting people.”
 
-![FLOTUS](http://cp91279.biography.com/BIO_Bio-Shorts_Michelle-Obama-Mini-Biography_0_181279_SF_HD_768x432-16x9.jpg)
+While the shooter, a military-trained gunman named Charles Whitman, held a 96-minute “reign of terror” over the campus, the doctors and nurses got to work, preparing operating rooms and medical instruments for the urgent-care patients they were sure to receive. 
+
+Thirty-nine patients would be brought into the ER in the next hour and a half. 
+
+“I walked into the emergency room, and it was like a war zone,” White, a UT alumna who served as both operating room director and head intensive care nurse in 1966, said. “You saw people lying on stretchers with all these massive wounds, and I thought, ‘Oh my goodness, this is like something you would see on a battlefield.’” 
+
+While it was soon all-hands-on-deck in the operating rooms, only one of Austin’s cardiothoracic surgeons was in town to treat victims with critical chest wounds. Two of the others, Dr. Pape said, were volunteering in Africa; another drove to Lubbock that morning, oblivious to the news of the shooting until he arrived. 
+
+As the surgeon opened chest after chest, he also had to keep his own health in mind. To manage his diabetes, nurses came by to feed him sweetened orange juice and milk during the hours-long surgeries.
+
+“They were ready to do whatever was necessary,” Dr. Pape said. “They made do with what they had and they did a good job.”
+
+Soon, some unanticipated recruits arrived. Without so much as a call, local doctors, from general practitioners to dermatologists, came to help. By the end of the day, the ER check-in sheet listed the names of nearly 60 volunteer doctors, Dr. Pape said. 
+
+As doctors rushed in, they abandoned their cars in the ambulance driveway, their keys still in the ignition. A pileup of vehicles soon blocked the emergency room entrance, leaving civilians to clear them out of the way of the funeral home hearses that carried the shooting victims. 
+
+Locals also lined up to donate blood to the victims, White said.
+
+The doctors and nurses worked until after midnight — more than 12 hours after the first bullets were fired — and many of the patients stayed in the hospital for weeks or, in some cases, months. 
+
+In the days before most hospitals had emergency rooms, Brackenridge was on the cutting edge, known as the only nearby trauma hospital. In the weeks before the shooting, everyone from interns to surgeons had run through their emergency protocol at a mock plane crash.
+
+Instead of chaos or panic, Dr. Pape said that on the day of the shooting, the training kicked in. 
+
+“Every year we wondered if we would have to use our emergency procedure, and then we had the opportunity to do it,” Dr. Pape said. “That really helped to solidify our response to the shooter.”
+
+Eleven of the patients brought to the hospital died that day or were already dead upon arrival. White credits the hospital’s trauma plans and the community’s support for saving the other 28 lives. 
+
+“No matter their position, the citizens of Austin came together,” White said. “Everyone was working as hard and as fast as they could. You had no time to think about anything other than those patients.”

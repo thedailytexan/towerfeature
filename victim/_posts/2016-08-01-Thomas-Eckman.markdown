@@ -1,27 +1,24 @@
 ---
 layout: article
-title:  "Thomas Eckman"
+title:  "Thomas Eckman, 18"
 date:   2016-08-01
 name: Thomas Eckman
 categories: victim
 author: Brianna Stone
+thumbnail: assets/img/ThomasEckman.png
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+![Thomas Eckman](assets/img/ThomasEckman.png)
+{: .victim-img}
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Illustration by Jacky Tovar
+{: .byline-photo}
 
-Jekyll also offers powerful support for code snippets:
+<hr> 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Thomas Frederick Eckman, a freshman studying anthropology, and his eight-month-pregnant girlfriend, Claire Wilson, were having coffee together on campus shortly before the shooting. As they began to head back to their car, Wilson was shot in the stomach. Eckman called out to Wilson and reached over to her, but then was shot outside Benedict Hall. Eckman died later in the hospital.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+His fiancee’s unborn child died during an emergency surgery performed on Wilson.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+He was survived by his mother, Mary Louise Eckman, his father, Frederick Eckman, and a half-brother, Michael R. Campbell.
+
+In his memory, the Thomas F. Eckman Special Collections Division of Bowling Green State University’s Library was established. Eckman was from Spain but buried in Ottawa, Ohio.

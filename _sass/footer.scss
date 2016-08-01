@@ -8,7 +8,7 @@
   position: fixed;
   bottom: 1em;
   right: 1em;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 
   &:hover {
@@ -73,7 +73,8 @@ h3.list-header {
 
 ul.footer-list {
   li {
-    font-family: Merriweather, serif;
+    font-family: Merriweather, Georgia, Cambria, Times, serif;
+    font-size: 1.25rem;
 }
 }
 

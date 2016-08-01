@@ -1,27 +1,51 @@
 ---
 layout: article
-title:  "Getting Guns"
+title:  "Gun laws change in Texas since Whitman shooting"
 date:   2016-08-01
 categories: sniper
-summary: On the morning of Aug 1, 1966 Charles Whitman purchased a shotgun, a carbine and 14 boxes of ammunition. How has the process of getting guns changed since then?
-subhead: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectu?
-header-image: /features/tower/assets/img/test2.jpg
-thumbnail: /features/tower/assets/img/test2.jpg
-
+summary: On the morning of Aug 1, 1966, Charles Whitman purchased a shotgun, a carbine and 14 boxes of ammunition. How has the process of getting guns changed since then?
+subhead: On the morning of Aug 1, 1966, Charles Whitman purchased a shotgun, a carbine and 14 boxes of ammunition. How has the process of getting guns changed since then?
+thumbnail: /features/tower/assets/img/control.jpg
 author: Van Nguyen
+img-credit: Infographic by Alex Dolan
 ---
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. *Vivamus vel tincidunt dui, sed pharetra purus.* Maecenas mi ante, dapibus eu dolor sit amet, sodales bibendum lectus. Vestibulum laoreet ipsum in est finibus, ac pulvinar lacus ultrices. Proin viverra, justo id auctor cursus, felis risus euismod felis, eu venenatis ligula ipsum et sapien. Duis pulvinar diam id est finibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nisl ultrices, consectetur ante et, laoreet risus. Curabitur volutpat dapibus ligula, eu maximus enim lacinia non. Duis varius rhoncus luctus. In hac habitasse platea dictumst. Curabitur commodo justo facilisis malesuada sagittis. Nam vitae scelerisque urna. Integer sagittis turpis lorem.
+![Infographic on Gun Control](assets/img/control.jpg)
 
-![FLOTUS](/features/tower/assets/img/test3.jpg)
+Illustration by Alex Dolan
+{: .byline-photo}
 
-Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus. Aenean nec laoreet neque. Maecenas mattis convallis ligula eget consectetur. Aliquam eu vehicula leo, quis fringilla risus. Sed pulvinar malesuada tellus, at placerat justo molestie at. Vivamus non congue tellus, vitae ultrices diam. Maecenas faucibus ultricies varius. Duis rutrum, velit ultricies placerat dictum, felis nunc sagittis sapien, eu vulputate elit neque a magna. Nullam dapibus vitae nisi eu mollis. Etiam ultricies, erat pulvinar vulputate tincidunt, turpis ipsum rutrum ex, eu porta lorem arcu ut lacus. Integer euismod ipsum et cursus lobortis. Nunc euismod enim et nisi auctor, quis fermentum tellus ultricies.
+<hr>
 
-In eget laoreet massa. Nunc mattis sodales quam sed ultricies. Curabitur commodo posuere turpis, id dictum arcu euismod eget. Etiam et dui non sapien scelerisque pretium efficitur sit amet nisl. Fusce mollis aliquet varius. Aliquam ullamcorper sem massa, ac pellentesque nisl ullamcorper tincidunt. Nunc et dui nec mi ornare auctor sit amet eget ipsum. Duis euismod sapien at ante accumsan, non dignissim nunc vulputate. Nulla tincidunt, justo eu viverra sollicitudin, tortor nibh tempor leo, ut bibendum mi lectus a ipsum.
+On the morning of Aug. 1, 1966, Charles Whitman purchased one of the seven weapons found with him on the observation deck of the Tower. Whitman was sold a 12-gauge shotgun at Sears Roebuck & Co. at around 9:30 a.m. In some ways, the ‘60s were a time with more lenient gun regulations.  
 
-Aliquam erat volutpat. Proin in placerat dui, quis faucibus dui. Cras imperdiet urna vitae mi blandit sollicitudin. Pellentesque ut diam pretium, tempor nunc vitae, dapibus lorem. Pellentesque hendrerit mi vitae placerat pharetra. Donec posuere neque sed neque lobortis cursus. Aliquam ultrices condimentum odio in pretium. Ut malesuada cursus nulla non sagittis. Donec sagittis eget justo in auctor. Nam at justo quam. Aliquam non lectus tellus. Nunc scelerisque sollicitudin libero, non vehicula turpis molestie sit amet. Fusce ex arcu, sollicitudin in mi in, sollicitudin vestibulum ex. In hac habitasse platea dictumst. Vivamus nisl lacus, facilisis sit amet sapien sit amet, eleifend luctus lacus.
+Stores selling guns at the time did not need any sort of license, and they were not required to perform background checks on buyers. There were also no age limits to purchase weapons. 
 
-Nullam sit amet orci tortor. Vestibulum quis augue mattis, tincidunt arcu ut, sollicitudin purus. Donec nec rhoncus dui. Praesent aliquam nisi ac turpis efficitur porttitor. Pellentesque tempus orci a massa dictum feugiat. Pellentesque magna dolor, fringilla nec auctor id, elementum at ante. Aliquam posuere odio in risus tempus auctor. Cras eleifend ornare nisi, ut accumsan lectus sagittis nec. Vestibulum pretium quam vitae magna sollicitudin sodales. Ut fringilla ipsum porta metus ultrices dictum. In hac habitasse platea dictumst. Nullam aliquam blandit nisi, vitae lobortis risus scelerisque id. 
+This changed with the Gun Control Act of 1968, which requires gun sellers to have a Federal Firearms License (FFL). Furthermore, sellers must track how much ammunition they sell and to whom. 
 
-> Sed vulputate luctus tristique. Nullam rutrum enim tellus, vitae sagittis turpis feugiat eget. 
-> Ut aliquet feugiat facilisis. Nunc eget pellentesque dolor.
+Currently in Texas, gun owners only need a License to Carry a Handgun (LTC) if they want to take their firearms outside their home or car. Texans do not need a permit to purchase a weapon and don’t need to register it. Those looking to buy a gun from a licensed dealer must pass a background check through the National Instant Criminal Background Check System (NICS) because of the 1993 Brady Act.
 
+Previously, gun owners needed a concealed handgun license (CHL) to carry their weapons. However, since open carry was legalized in January 2016, the LTC replaced the CHL, allowing either open or concealed carry.
+
+Those wanting to purchase a rifle or shotgun in Texas from a licensed dealer must be 18 years or older, while those wanting a handgun must be at least 21 years old. The minimum age to open or conceal carry outside the home is also 21 years old.  
+
+There is no limit to how much ammunition an individual can purchase. 
+
+The majority of gun owners carried rifles outside their homes for hunting before the legalization of concealed carry in 1996. Because of this, when Whitman told shopkeepers he was going to use the weapons for hunting, he wasn’t questioned further. 
+
+Harel Shapira, assistant professor in the Department of Sociology, said the motivation for someone to buy a gun changed after the CHL was implemented. 
+
+“Up until 1990, the primary reason that people gave for owning guns was actually hunting,” Shapira said. “[Then] there was a huge shift in which self-defense … became the primary reason that people gave.” 
+
+John Lott, president of the Crime Prevention Research Center and gun rights advocate, said in some ways, there were more regulations back in the 1960s than there are now. 
+
+“Back in the mid-60s, you were not allowed to carry a concealed handgun,” Lott said. “Today there are over one million Texans that have permits for concealed carry.”
+
+Beginning Aug. 1 — coincidentally the 50th anniversary of the Tower shooting — those with a LTC will be allowed to conceal carry on campus, which was prohibited during Whitman’s lifetime. 
+
+UT President Gregory Fenves suggested prohibiting chambered rounds for those carrying handguns on campus. The Board of Regents voted against this rule, overruling him. 
+
+UT alumnus Bobby Petmecky said he is glad the policy was rejected and that not having a chambered round could be a potential risk to a licensed holder.  
+
+“I think about it as time being wasted in a very time-sensitive situation,” Petmecky said. “If someone comes into [a] classroom and starts shooting, taking the time to work a round in the chamber could cost someone their life. We shouldn’t put limitations like that on people who could save lives.”
+
+*Note: The print version of this article's infographic incorrectly stated that the campus carry law allows the open carry of weapons on campus. Campus carry allows the concealed carry of weapons, although open carry was legalized in Texas this year.*

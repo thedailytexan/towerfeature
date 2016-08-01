@@ -5,11 +5,11 @@ html, body {
 // typography
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, Georgia, Cambria, Times, serif;
   font-weight: normal;
 }
 p, a, li, ul, span, pre, code, i  {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -24,6 +24,6 @@ vr {
 
 hr {
   margin: .5em 0 .5em 0;
-  border-bottom: 1px solid $grey-color-light;
-  color: lighten($grey-color, 20%);
+  border-bottom: 0;
+  color: lightgray !important;
 }

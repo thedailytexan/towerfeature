@@ -13,7 +13,7 @@
   </div>
 </header>
 <ul class="menu share-menu article">
-  <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//dailytexanonline.com/features/tower/" target="_blank">
     <p>
       <i data-tooltip="Share on Facebook" id="fb-share" class="fa fa-facebook menu-header-text tooltip-left"></i>
     </p>
@@ -32,19 +32,15 @@
 
 <div class="container article individual animated fadeIn">
   <div class="col-8 column article">
-    {% if page.header-image %}
-    <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-         class="img-responsive"
-         alt="{{ page.title }}"
-         data-src="{{ page.header-image }}">
-    {% endif %}
     <div class="article-header">
       <h1 class="article-headline">{{ page.title }}</h1>
       {% if page.subhead %}
         <h3 class="article-subheadline">{{ page.subhead }}</h3>
       {% endif %}
+      {% unless page.categories contains 'victim' %}
         <p class="article-byline">{% if page.author %}By <b>{{ page.author | upcase }}{% else %}{{ By Daily Texan Staff }}{% endif %}</b></p>
       <p class="article-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+      {% endunless %}
     </div>
     <article class="article-content">
       {{ content}}
@@ -63,7 +59,7 @@
         </a>
         {% endunless %}
         {% endfor %}
-        {% elsif page.categories contains 'victim' or page.categories contains 'memorial' or page.categories contains 'survivor' %}
+        {% elsif page.categories contains 'victim' or page.categories contains 'victim_story' or page.categories contains 'survivor' %}
         {% assign victim = (site.categories['victim'] | sort: 'title') %}
         {% for post in victim %}
         {% unless post.title == page.title %}

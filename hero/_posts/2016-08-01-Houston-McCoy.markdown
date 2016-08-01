@@ -1,24 +1,60 @@
 ---
 layout: article
-title:  "Houston McCoy"
+title:  "Officer who shot sniper remembered by daughter as a family man"
 date:   2016-08-01
 categories: hero
-summary: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.
-thumbnail: https://pbs.twimg.com/media/CoQnPFPWAAAH7_j.jpg
+summary: Houston McCoy, one of the Austin police officers who shot the sniper atop the University of Texas Tower fifty years ago, is remembered by his daughter as a humble man.
+subhead: Houston McCoy, one of the Austin police officers who shot the sniper atop the University of Texas Tower fifty years ago, is remembered by his daughter as a humble man.
+thumbnail: assets/img/houstonmccoy.jpg
+header_img: 
+img-credit: Photo Courtesy Minoka McCoy
 
 author: Jasleen Shokar
 ---
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. *Vivamus vel tincidunt dui, sed pharetra purus.* Maecenas mi ante, dapibus eu dolor sit amet, sodales bibendum lectus. Vestibulum laoreet ipsum in est finibus, ac pulvinar lacus ultrices. Proin viverra, justo id auctor cursus, felis risus euismod felis, eu venenatis ligula ipsum et sapien. Duis pulvinar diam id est finibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nisl ultrices, consectetur ante et, laoreet risus. Curabitur volutpat dapibus ligula, eu maximus enim lacinia non. Duis varius rhoncus luctus. In hac habitasse platea dictumst. Curabitur commodo justo facilisis malesuada sagittis. Nam vitae scelerisque urna. Integer sagittis turpis lorem.
+![Houston McCoy was one of the officers who confronted Charles Whitman on the observation deck. One of his favorite things to do was fly planes. He was so passionate about his hobby that he offered free lessons to anyone who was interested.](assets/img/houstonmccoy.jpg)
 
-Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus. Aenean nec laoreet neque. Maecenas mattis convallis ligula eget consectetur. Aliquam eu vehicula leo, quis fringilla risus. Sed pulvinar malesuada tellus, at placerat justo molestie at. Vivamus non congue tellus, vitae ultrices diam. Maecenas faucibus ultricies varius. Duis rutrum, velit ultricies placerat dictum, felis nunc sagittis sapien, eu vulputate elit neque a magna. Nullam dapibus vitae nisi eu mollis. Etiam ultricies, erat pulvinar vulputate tincidunt, turpis ipsum rutrum ex, eu porta lorem arcu ut lacus. Integer euismod ipsum et cursus lobortis. Nunc euismod enim et nisi auctor, quis fermentum tellus ultricies.
+Houston McCoy was one of the officers who confronted Charles Whitman on the observation deck. One of his favorite things to do was fly planes. He was so passionate about his hobby that he offered free lessons to anyone who was interested.
+{: .caption-photo}
 
-In eget laoreet massa. Nunc mattis sodales quam sed ultricies. Curabitur commodo posuere turpis, id dictum arcu euismod eget. Etiam et dui non sapien scelerisque pretium efficitur sit amet nisl. Fusce mollis aliquet varius. Aliquam ullamcorper sem massa, ac pellentesque nisl ullamcorper tincidunt. Nunc et dui nec mi ornare auctor sit amet eget ipsum. Duis euismod sapien at ante accumsan, non dignissim nunc vulputate. Nulla tincidunt, justo eu viverra sollicitudin, tortor nibh tempor leo, ut bibendum mi lectus a ipsum.
+Photo Courtesy Minoka McCoy
+{: .byline-photo}
 
-Aliquam erat volutpat. Proin in placerat dui, quis faucibus dui. Cras imperdiet urna vitae mi blandit sollicitudin. Pellentesque ut diam pretium, tempor nunc vitae, dapibus lorem. Pellentesque hendrerit mi vitae placerat pharetra. Donec posuere neque sed neque lobortis cursus. Aliquam ultrices condimentum odio in pretium. Ut malesuada cursus nulla non sagittis. Donec sagittis eget justo in auctor. Nam at justo quam. Aliquam non lectus tellus. Nunc scelerisque sollicitudin libero, non vehicula turpis molestie sit amet. Fusce ex arcu, sollicitudin in mi in, sollicitudin vestibulum ex. In hac habitasse platea dictumst. Vivamus nisl lacus, facilisis sit amet sapien sit amet, eleifend luctus lacus.
+<hr>
 
-Nullam sit amet orci tortor. Vestibulum quis augue mattis, tincidunt arcu ut, sollicitudin purus. Donec nec rhoncus dui. Praesent aliquam nisi ac turpis efficitur porttitor. Pellentesque tempus orci a massa dictum feugiat. Pellentesque magna dolor, fringilla nec auctor id, elementum at ante. Aliquam posuere odio in risus tempus auctor. Cras eleifend ornare nisi, ut accumsan lectus sagittis nec. Vestibulum pretium quam vitae magna sollicitudin sodales. Ut fringilla ipsum porta metus ultrices dictum. In hac habitasse platea dictumst. Nullam aliquam blandit nisi, vitae lobortis risus scelerisque id. 
+Houston McCoy, one of the Austin police officers who shot the sniper atop the University of Texas Tower 50 years ago, is remembered by his daughter as a humble man.
 
-> Sed vulputate luctus tristique. Nullam rutrum enim tellus, vitae sagittis turpis feugiat eget. 
-> Ut aliquet feugiat facilisis. Nunc eget pellentesque dolor.
+Monika McCoy, now an APD officer herself, said that around the 40th anniversary when a lot of the police officers, victims and their family members were reunited, her father started talking about the Tower shooting more and she began to understand his role and the impact it had on him.
 
-![FLOTUS](http://cp91279.biography.com/BIO_Bio-Shorts_Michelle-Obama-Mini-Biography_0_181279_SF_HD_768x432-16x9.jpg)
+“It brought us closer together to be able to talk about it and [reuniting] was something they hadn’t really done before,” McCoy said.  
+
+McCoy, who serves the West Campus neighborhood, an area her father used to patrol, said she always knew what had happened at the Tower. Every year, reporters would come around and ask questions, but she had never understood the full magnitude. 
+
+“You don’t quite grasp things when you’re younger,” McCoy said. “I think in the end, when everyone started coming together, such a great healing process began. It brought my father and I closer together than we already were.” 
+
+McCoy said, as the youngest of four children and the only girl, she would always tag along with her father when she wasn’t in school. 
+
+“I was daddy’s little girl,” McCoy said. “My father is the jack of all trades. He did masonry work, could build a house up from the ground, and he [knew] the survival skills in the country, like hunting and fishing and growing gardens and he passed all of that on to his children.”
+
+McCoy said Houston McCoy was a phenomenal father and family man.
+
+“One of the most important lessons he taught us was to have good moral character, integrity first and foremost, and respect, which probably go hand in hand,” McCoy said. “‘Always do the right thing’ was one of his mottos. ‘Don’t lie, don’t cheat, don’t steal.’ Very basic, but very profound morals and values.” 
+
+McCoy said her father was a highly intellectual man, very quiet, easy going and laid back. 
+
+“Just in how he handled situations, through observations, is how we learned,” McCoy said. “Whether we were doing wrong, as kids acting up, he never lashed out. There was always a lesson learned, and a lot of it was about patience.” 
+
+One of the main things her father taught his children was to show compassion toward other human beings. 
+
+“He would give the shirt off of his back to help someone,” McCoy said. “We grew up with very little money, but anything he could do to help someone, he would do.” 
+
+McCoy said he taught several people how to fly an airplane at no cost, because he was so passionate about flying. 
+
+“Nothing for him was ever monetary,” McCoy said. “He enjoyed being able to teach somebody else that skill, and he could have made extra money by teaching flying lessons, but he taught them free of charge.” 
+
+ McCoy said in memory books from elementary school, she would always say she wanted to be a police officer, jockey or a skydiver. 
+
+“[Being an officer has] always been instilled in me since at least Kindergarten,” McCoy said. “Looking at photos of [my father] in uniform, he looks very stoic, it always stood out to me.” 
+
+McCoy said being a police officer is about more than just catching the bad guys and influences the community in a positive manner.
+
+“It’s more about helping people and having a positive influence,” McCoy said. “Letting people know you’re there to help protect them and keep them safe.” 

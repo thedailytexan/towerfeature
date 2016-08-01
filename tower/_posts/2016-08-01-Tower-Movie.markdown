@@ -1,27 +1,47 @@
 ---
 layout: article
-title:  "TOWER Movie Feature"
+title:  "‘Tower’ filmmakers shed light on humanity in moments of darkness"
 date:   2016-08-01
 categories: tower
-summary: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus.
-subhead: Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectu?
-header-image: /features/tower/assets/img/test2.jpg
-thumbnail: /features/tower/assets/img/test2.jpg
+summary: Director Keith Maitland and his team spent six years collecting stories from witnesses and survivors of the UT Tower shooting.
+subhead: Director Keith Maitland and his team spent six years collecting stories from witnesses and survivors of the UT Tower shooting.
+header-image: /features/tower/assets/img/tower.jpg
+thumbnail: /features/tower/assets/img/tower.jpg
+img-credit: Photo by Joshua Guerra
 
 author: Charles Liu
 ---
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. *Vivamus vel tincidunt dui, sed pharetra purus.* Maecenas mi ante, dapibus eu dolor sit amet, sodales bibendum lectus. Vestibulum laoreet ipsum in est finibus, ac pulvinar lacus ultrices. Proin viverra, justo id auctor cursus, felis risus euismod felis, eu venenatis ligula ipsum et sapien. Duis pulvinar diam id est finibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam in nisl ultrices, consectetur ante et, laoreet risus. Curabitur volutpat dapibus ligula, eu maximus enim lacinia non. Duis varius rhoncus luctus. In hac habitasse platea dictumst. Curabitur commodo justo facilisis malesuada sagittis. Nam vitae scelerisque urna. Integer sagittis turpis lorem.
+![(From left to right) Coordinating producer Hillary Pierce, director Keith Maitland and producer Megan Gilbride premiered their "Tower" documentary at the South By Southwest film festival this past spring. The documentary is set for a theatrical release on October 12th.](assets/img/tower.jpg)
 
-![FLOTUS](/features/tower/assets/img/test3.jpg)
+(From left to right) Coordinating producer Hillary Pierce, director Keith Maitland and producer Megan Gilbride premiered their "Tower" documentary at the South By Southwest film festival this past spring. The documentary is set for a theatrical release on October 12th.
+{: .caption-photo}
 
-Cras varius suscipit luctus. Duis at enim gravida, finibus turpis ac, faucibus lectus. Aenean nec laoreet neque. Maecenas mattis convallis ligula eget consectetur. Aliquam eu vehicula leo, quis fringilla risus. Sed pulvinar malesuada tellus, at placerat justo molestie at. Vivamus non congue tellus, vitae ultrices diam. Maecenas faucibus ultricies varius. Duis rutrum, velit ultricies placerat dictum, felis nunc sagittis sapien, eu vulputate elit neque a magna. Nullam dapibus vitae nisi eu mollis. Etiam ultricies, erat pulvinar vulputate tincidunt, turpis ipsum rutrum ex, eu porta lorem arcu ut lacus. Integer euismod ipsum et cursus lobortis. Nunc euismod enim et nisi auctor, quis fermentum tellus ultricies.
+Photo by Joshua Guerra, Daily Texan Staff
+{: .byline-photo}
 
-In eget laoreet massa. Nunc mattis sodales quam sed ultricies. Curabitur commodo posuere turpis, id dictum arcu euismod eget. Etiam et dui non sapien scelerisque pretium efficitur sit amet nisl. Fusce mollis aliquet varius. Aliquam ullamcorper sem massa, ac pellentesque nisl ullamcorper tincidunt. Nunc et dui nec mi ornare auctor sit amet eget ipsum. Duis euismod sapien at ante accumsan, non dignissim nunc vulputate. Nulla tincidunt, justo eu viverra sollicitudin, tortor nibh tempor leo, ut bibendum mi lectus a ipsum.
+<hr>
 
-Aliquam erat volutpat. Proin in placerat dui, quis faucibus dui. Cras imperdiet urna vitae mi blandit sollicitudin. Pellentesque ut diam pretium, tempor nunc vitae, dapibus lorem. Pellentesque hendrerit mi vitae placerat pharetra. Donec posuere neque sed neque lobortis cursus. Aliquam ultrices condimentum odio in pretium. Ut malesuada cursus nulla non sagittis. Donec sagittis eget justo in auctor. Nam at justo quam. Aliquam non lectus tellus. Nunc scelerisque sollicitudin libero, non vehicula turpis molestie sit amet. Fusce ex arcu, sollicitudin in mi in, sollicitudin vestibulum ex. In hac habitasse platea dictumst. Vivamus nisl lacus, facilisis sit amet sapien sit amet, eleifend luctus lacus.
+Austin-based director Keith Maitland first learned of the Tower shooting from his seventh-grade Texas history teacher. The topic wasn’t part of the school’s curriculum, but the teacher, a UT alumna who witnessed the shooting, felt compelled to share her story.
 
-Nullam sit amet orci tortor. Vestibulum quis augue mattis, tincidunt arcu ut, sollicitudin purus. Donec nec rhoncus dui. Praesent aliquam nisi ac turpis efficitur porttitor. Pellentesque tempus orci a massa dictum feugiat. Pellentesque magna dolor, fringilla nec auctor id, elementum at ante. Aliquam posuere odio in risus tempus auctor. Cras eleifend ornare nisi, ut accumsan lectus sagittis nec. Vestibulum pretium quam vitae magna sollicitudin sodales. Ut fringilla ipsum porta metus ultrices dictum. In hac habitasse platea dictumst. Nullam aliquam blandit nisi, vitae lobortis risus scelerisque id. 
+“From the moment she first told me about her experience at the shooting, I’ve always put myself in those shoes,” Maitland said.
 
-> Sed vulputate luctus tristique. Nullam rutrum enim tellus, vitae sagittis turpis feugiat eget. 
-> Ut aliquet feugiat facilisis. Nunc eget pellentesque dolor.
+In 2006, Maitland came upon a Texas Monthly article featuring a collection of accounts from students, police officers and others who had found themselves caught in the crisis. Maitland had never heard their stories and didn’t want other accounts to go untold. So he went to work.
 
+His curiosity eventually gave way to “Tower,” a documentary that tells the story of an attack that has largely faded from the public dialogue through the eyes of its survivors. Coordinating producer Hillary Pierce said the filmmakers reached out to eyewitnesses by putting out calls for stories and advertising on Facebook.
+
+“It was amazing how many people came forward because they’d never been asked to talk about it before,” Pierce said. “Just kind of putting that out there and saying, ‘We want to hear your story’ — people responded.”
+
+Gathering the information for “Tower” was a six-year project, starting in 2006 before production began in 2012. Maitland said they wanted the film to include a variety of personal perspectives so viewers would identify with at least one of the characters’ stories.
+“It was a real challenge deciding [which stories to use],” Maitland said. “You have to learn everything you can about the subject matter before making those big decisions, because you don’t want to regret leaving out something.”
+
+“Tower” depicts its eye-witness stories with rotoscope animation, a technique that uses footage of real actors overlaid with painted colors, rather than pure live action. Maitland said the decision was made partially out of necessity because he knew UT would not allow the crew to reenact the events on campus with actors, guns and blood, but it was also a way for the film to appeal to younger audiences.
+
+“We wanted high school and college kids to see themselves reflected on that screen,” Maitland said. “[In the film], we are looking at young innocent people going through the events of that day, not as the memories from 50 years ago, but as a visceral first-hand experience with immediacy.”
+
+The picture made its debut at this year’s South By Southwest film festival, where it won the Grand Jury Prize and the Audience Award for best documentary feature, and is set for a theatrical release on Oct. 12.
+
+Maitland said he hopes “Tower” can push forward a dialogue about gun violence at a time when mass shootings have become increasingly common. To help start this conversation, the crew plans to host screenings at college campuses across the nation later this year.
+
+While the picture portrays a dark moment in UT’s history, producer Megan Gilbride said “Tower” is not meant to frighten viewers by remembering the tragedy, but is instead intended to highlight the strength and heroism of many involved.
+
+“Today, when we watch these events unfold, it’s hard not to be beaten down by what feels like the monsters that we’re seeing,” Gilbride said. “The story that ‘Tower’ is telling is really about the amazing humanity and the sacrifice and caring that strangers felt for each other. I think we can see our better selves in those people.”

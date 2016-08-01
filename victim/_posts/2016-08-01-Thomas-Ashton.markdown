@@ -1,27 +1,22 @@
 ---
 layout: article
-title:  "Thomas Ashton"
+title:  "Thomas Ashton, 22"
 date:   2016-08-01
 name: Thomas Ashton
 categories: victim
-author: Paula
+author: Paula Horstman
+thumbnail: assets/img/ThomasAshton.png
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+![Thomas Ashton](assets/img/ThomasAshton.png)
+{: .victim-img}
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Illustration by Jacky Tovar
+{: .byline-photo}
 
-Jekyll also offers powerful support for code snippets:
+<hr> 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Thomas Ashton was a recent graduate of the University of California visiting Austin for Peace Corps training.  
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Ashton was on his way to meet with fellow trainees at the Student Union when he heard sudden noises and saw bodies falling to the ground. Exiting the UT Computation Center, Ashton looked toward the west side of the tower and was shot in the chest. Ashton died in Brackenridge Hospital soon after. 
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Ashton is buried at Hillside Memorial Park in Redlands, California.
