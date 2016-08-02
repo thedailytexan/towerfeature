@@ -8,7 +8,7 @@ subhead: In the years following the shooting, experts have debated the affect a 
 thumbnail: assets/img/brain.jpg
 img-credit: Illustration by Melanie Westfall
 
-author: Eva Fredrick
+author: Eva Frederick
 ---
 ![In the years following the shooting, experts have debated the affect a brain tumor had on his mental health.](assets/img/brain.jpg)
 

@@ -7,7 +7,7 @@ summary: Houston McCoy, one of the Austin police officers who shot the sniper at
 subhead: Houston McCoy, one of the Austin police officers who shot the sniper atop the University of Texas Tower fifty years ago, is remembered by his daughter as a humble man.
 thumbnail: assets/img/houstonmccoy.jpg
 header_img: 
-img-credit: Photo Courtesy Minoka McCoy
+img-credit: Photo Courtesy of Minoka McCoy
 
 author: Jasleen Shokar
 ---
@@ -16,7 +16,7 @@ author: Jasleen Shokar
 Houston McCoy was one of the officers who confronted Charles Whitman on the observation deck. One of his favorite things to do was fly planes. He was so passionate about his hobby that he offered free lessons to anyone who was interested.
 {: .caption-photo}
 
-Photo Courtesy Minoka McCoy
+Photo Courtesy of Minoka McCoy
 {: .byline-photo}
 
 <hr>

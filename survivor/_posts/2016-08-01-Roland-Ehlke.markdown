@@ -5,13 +5,13 @@ date:  2016-08-01
 name: Roland Ehlke
 categories: survivor
 thumbnail: assets/img/rolandehlke.jpg
-img-credit: Photo Courtesy Roland Ehlke
+img-credit: Photo Courtesy of Roland Ehlke
 
 author: Anna McCreary
 ---
 ![Roland Ehlke](assets/img/rolandehlke.jpg)
 
-Photo Courtesy Roland Ehlke
+Photo Courtesy of Roland Ehlke
 {: .byline-photo}
 
 <hr>

@@ -5,13 +5,13 @@ date:  2016-08-01
 name: Adrien Littlefield
 categories: survivor
 thumbnail: assets/img/littlefield.jpg
-img-credit: Photo Courtesy Adrien Littlefield
+img-credit: Photo Courtesy of Adrien Littlefield
 
 author: Van Nguyen
 ---
 ![Adrien Littlefield](assets/img/littlefield.jpg)
 
-Photo Courtesy Adrien Littlefield
+Photo Courtesy of Adrien Littlefield
 {: .byline-photo}
 
 <hr>

@@ -6,7 +6,7 @@ categories: sniper
 summary: An in-depth study of Whitman's life finds his troubled relationship with his father to be a factor in the Tower shooting.
 subhead: An in-depth study of Whitman's life finds his troubled relationship with his father to be a factor in the Tower shooting. 
 thumbnail: assets/img/institute.jpg
-img-credit: Photo Courtesy Stuart Brown
+img-credit: Photo Courtesy of Stuart Brown
 
 author: Anusha Lalani
 ---
@@ -16,7 +16,7 @@ author: Anusha Lalani
 Psychiatrist Stuart Brown was part of a 1966 committee that delivered a report on the life of Charles Whitman to then-Texas Gov. John Connally. 
 {: .caption-photo}
 
-Photo Courtesy Stuart Brown
+Photo Courtesy of Stuart Brown
 {: .byline-photo}
 
 <hr>
