@@ -1,3 +1,7 @@
 .sass-cache
 .DS_Store
 .idea
+_site/
+/assets/img/
+.sass_cache/
+.jekyll-metadata
